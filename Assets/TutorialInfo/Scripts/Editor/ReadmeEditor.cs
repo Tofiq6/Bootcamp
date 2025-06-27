@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -11,7 +11,7 @@ using System.Reflection;
 public class ReadmeEditor : Editor
 {
     static string s_ShowedReadmeSessionStateName = "ReadmeEditor.showedReadme";
-
+    
     static string s_ReadmeSourceDirectory = "Assets/TutorialInfo";
 
     const float k_Space = 16f;
@@ -24,7 +24,7 @@ public class ReadmeEditor : Editor
     static void RemoveTutorial()
     {
         if (EditorUtility.DisplayDialog("Remove Readme Assets",
-
+            
             $"All contents under {s_ReadmeSourceDirectory} will be removed, are you sure you want to proceed?",
             "Proceed",
             "Cancel"))
@@ -154,6 +154,8 @@ public class ReadmeEditor : Editor
         }
     }
 
+    bool m_Initialized;
+
     GUIStyle LinkStyle
     {
         get { return m_LinkStyle; }
@@ -196,6 +198,8 @@ public class ReadmeEditor : Editor
 
     void Init()
     {
+        if (m_Initialized)
+            return;
         m_BodyStyle = new GUIStyle(EditorStyles.label);
         m_BodyStyle.wordWrap = true;
         m_BodyStyle.fontSize = 14;
@@ -217,6 +221,8 @@ public class ReadmeEditor : Editor
 
         m_ButtonStyle = new GUIStyle(EditorStyles.miniButton);
         m_ButtonStyle.fontStyle = FontStyle.Bold;
+
+        m_Initialized = true;
     }
 
     bool LinkLabel(GUIContent label, params GUILayoutOption[] options)
