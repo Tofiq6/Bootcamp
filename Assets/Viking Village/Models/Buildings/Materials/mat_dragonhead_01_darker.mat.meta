@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4d2989ec3529eb439869903d88a2530
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29140
+  packageName: Viking Village URP
+  packageVersion: 1.1.1
+  assetPath: Assets/Viking Village/Models/Buildings/Materials/mat_dragonhead_01_darker.mat
+  uploadId: 496047
