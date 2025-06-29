@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 857bf26b4bcbff14894255f214eb8233
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29140
+  packageName: Viking Village URP
+  packageVersion: 1.1.1
+  assetPath: Assets/Viking Village/Rendering/PlanarReflectionsPostProcessData.asset
+  uploadId: 496047
