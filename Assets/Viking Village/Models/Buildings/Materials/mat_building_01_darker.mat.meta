@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfaa42e3be0066b42ae813855135ffbe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29140
+  packageName: Viking Village URP
+  packageVersion: 1.1.1
+  assetPath: Assets/Viking Village/Models/Buildings/Materials/mat_building_01_darker.mat
+  uploadId: 496047
