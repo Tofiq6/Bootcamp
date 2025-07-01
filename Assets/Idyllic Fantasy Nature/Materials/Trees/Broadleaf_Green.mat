@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Broadleaf_Green
-  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -177,13 +178,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BottomColor: {r: 0.51857907, g: 0.5377358, b: 0.0025364957, a: 0}
-    - _Bottom_Color: {r: 0.6182256, g: 0.754717, b: 0, a: 0}
+    - _Bottom_Color: {r: 0.48132858, g: 0.5849056, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Player_Position: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TopColor: {r: 0.58158517, g: 0.754717, b: 0, a: 0}
-    - _Top_Color: {r: 0.668223, g: 0.8, b: 0, a: 0}
+    - _Top_Color: {r: 0.16037734, g: 0.19245279, b: 0, a: 0}
     - _WindDirection: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Wind_Direction: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []

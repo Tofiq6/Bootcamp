@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Willow_Branch_Blue
-  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -163,13 +164,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BottomColor: {r: 0.39539582, g: 0.46226418, b: 0, a: 0}
-    - _Bottom_Color: {r: 0.43943575, g: 0.47002044, b: 0.745283, a: 0}
+    - _Bottom_Color: {r: 0.18586686, g: 0.21131249, b: 0.4339623, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Player_Position: {r: 163.32307, g: 17.045227, b: 183.93237, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TopColor: {r: 0.8769975, g: 1, b: 0, a: 0}
-    - _Top_Color: {r: 0.5372549, g: 0.5686275, b: 0.94509804, a: 0}
+    - _Top_Color: {r: 0.35650402, g: 0.37581503, b: 0.6075471, a: 0}
     - _WindDirection: {r: 1, g: 1, b: 0, a: 0}
     - _Wind_Direction: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
