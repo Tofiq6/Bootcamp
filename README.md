@@ -12,3 +12,15 @@ Against RedMourne
 
 # Oyun İsmi
 Soulshard
+# Oyun logosu
+Soulshard
+# Oyun Kapak Görseli
+Soulshard
+# Oyun Açıklaması
+# Oyun Hikayesi
+# Oyun Özellikleri
+# Hedef Kitle
+# Pazarlama Planı
+# Product Backlog URL
+# Sprint 1
+# Ürün Durumu: Ekran Görüntüleri
