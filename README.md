@@ -1,5 +1,5 @@
 # Takım İsmi
-Against RedMourne
+Soulburners 
 # Takım Elemanları
 
 | Photo                                              | Name                  | Title           | Socials                       |
