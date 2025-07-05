@@ -13,7 +13,7 @@ Against RedMourne
 # Oyun İsmi
 Soulshard
 # Oyun Logosu
-<img src="https://github.com/user-attachments/assets/8546ea91-614a-49be-a784-08906ca72ffd" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/1515c68c-1200-4493-9401-0f56c9825f16" width="400" height="400">
 
 
 # Oyun Kapak Görseli
