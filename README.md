@@ -112,8 +112,9 @@ Turuncu Item'lar:Tasarım görevlerini temsil eder.
 Daily Scrum
 Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılmıştır. Bu toplantılar, ekibin ilerleyişini hızla tartışabilmesi ve karşılaşılan engelleri anında çözebilmesi için oldukça önemli olmuştur. Ayrıca, günlük Whatsapp konuşmalarımız ve Daily Scrum toplantılarımız, Imgur platformunda toplanmıştır.
 
-İlgili Linkler:
-Sprint 1 - Daily Scrum Chats: [Imgur Linki]
+## İlgili Linkler:
+- **Sprint 1 - Daily Scrum Chats**: [Imgur Linki](https://imgur.com/a/62YjJ5w)
+
 # Ürün Durumu: Ekran Görüntüleri
 
 Sprint Review:
