@@ -115,6 +115,29 @@ Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılm�
 İlgili Linkler:
 Sprint 1 - Daily Scrum Chats: [Imgur Linki]
 # Ürün Durumu: Ekran Görüntüleri
+
+Sprint Review:
+Ekip, sprint sürecinde tamamlanan bölümleri ve ortaya çıkan sonuçları değerlendirdi. Oyunun mevcut tasarımı ve yönü olumlu yorumlar aldı, tüm ekip, oyun içi mekaniklerin ve görsel öğelerin uyumunu beğendi. İlerleyen sprintlerde geliştirilmesi gereken yeni fikirler üzerine konuşuldu. Sprint içinde tasarlanan level, ekip tarafından test edildi ve herhangi bir kritik hata veya sorunla karşılaşılmadı.
+
+Sprint Review Katılımcıları: Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada, Burak Alver.
+
+Sprint Retrospective:
+Ekip, bu sprintin sonunda neler başardığını ve hangi alanlarda iyileştirmeler yapması gerektiğini değerlendirdi. Yapılan toplantılarda, oyunun ilerleyen bölümleri için hangi adımların atılması gerektiği netleştirildi. Mevcut bölümdeki eksiklikler belirlendi ve gelecek sprintlerde çözülmesi gereken önemli noktalar vurgulandı. Ayrıca, oyun için gerekli olan assetlerin listeleri oluşturulup, bu varlıkların üretimine yönelik bir yol haritası hazırlandı.
+
+Ekip Üyeleri ve Görev Dağılımı:
+
+Ses: Burak
+
+Harita Tasarımı ve UI: Tofig
+
+Modelleme: Defne
+
+Kodlama: Şebnem
+
+Senaryo: Ekip olarak devam etmekte, düzenleme süreci devam ediyor.
+
+Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan değerlendirmelerin devam etmesi kararlaştırıldı.
+
 <img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="400" height="400">
 <img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="400" height="400">
 <img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="400" height="400">
@@ -122,5 +145,6 @@ Sprint 1 - Daily Scrum Chats: [Imgur Linki]
 <img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="400" height="400">
 <img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" width="400" height="400">
 <img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" width="400" height="400">
 
