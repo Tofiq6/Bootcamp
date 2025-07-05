@@ -33,9 +33,13 @@ Yolculuk sırasında, Kael yalnız değildir. Lyra'nın ruhu, ara ara belirerek 
 Kael’in amacı, dünyayı kurtarmak değil, sevdiği kadını geri getirmek ve intikamını almaktır. Bu derin bağ, oyuncuları Kael'in duygusal yolculuğuna ortak etmeyi ve onları zor seçimlerle, zorlu dövüşlerle test etmeyi hedefler.
 # Oyun Özellikleri
 3D
+
 RPG
+
 Derin hikaye Örgüsü
+
 Ruhsal Rehberlik: Lyra'nın ruhu, Kael’in yolculuğu boyunca ara ara belirir ve ona rehberlik eder.
+
 # Hedef Kitle
 Soulshard, derin hikaye anlatımı ve duygusal deneyimler arayan, aksiyon ve macera türlerine ilgi duyan oyunculara hitap etmektedir. Özellikle RPG türüne ilgi duyan, zorlu bulmacalar ve interaktif görevlerle hikaye odaklı oyun deneyimlerini seven oyuncular için uygundur. Ayrıca, duygusal bağ kurarak karakterlerin içsel yolculuklarına eşlik etmek isteyen, karmaşık ve derin hikayelere ilgi duyan oyuncular için ideal bir deneyim sunar.
 
@@ -76,4 +80,45 @@ Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi
 [Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
 
 # Sprint 1
+
+User Story'ler
+User Story'ler, product backlog içinde belirlenen görevlere ayrılmıştır. Bu story'ler, her bir product backlog item'a tıklandığında detaylı olarak incelenebilir.
+
+Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
+Sprint boyunca tamamlanması beklenen toplam puan 100 olarak belirlenmiştir. Proje boyunca tamamlanması gereken 300 puanlık backlog, üç sprinte bölünmüş olup, ilk sprintin 100 puanla başlaması kararlaştırılmıştır.
+
+Puan Tamamlama Mantığı
+Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. Bu 300 puan, üç sprinte eşit şekilde bölündü. İlk sprintin hedefi 100 puan olarak belirlenmiştir ve bu hedef doğrultusunda görevler dağıtılmıştır.
+
+Backlog Düzeni ve Story Seçimleri
+Backlog, bir sonraki sprintlerin temelini atacak şekilde düzenlenmiştir. Her sprintte tamamlanması beklenen görevlerin, tahmin edilen puan sayısını aşmaması için dikkatle seçilmiştir. Miro Board üzerinde gözüken görevlerin renk kodlaması, görev türlerini belirlemektedir:
+
+<img src="https://github.com/user-attachments/assets/cae36c1c-eed1-4299-a36b-c98723f29c01" width="500" height="500">
+
+
+
+Pembe Item'lar: Hikayesel görevlerini temsil eder.
+
+Mor Item'lar: Kodlama ve Unity görevlerini temsil eder.
+
+Açık Yeşil Item'lar: Dİğer görevleri temsil eder.
+
+Koyu Yeşil Item'lar: Ses görevlerini temsil eder.
+
+Kırmızı Item'lar: Fix - hata ayıklama görevlerini temsil eder.
+
+Turuncu Item'lar:Tasarım görevlerini temsil eder.
+
+Daily Scrum
+Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılmıştır. Bu toplantılar, ekibin ilerleyişini hızla tartışabilmesi ve karşılaşılan engelleri anında çözebilmesi için oldukça önemli olmuştur. Ayrıca, günlük Whatsapp konuşmalarımız ve Daily Scrum toplantılarımız, Imgur platformunda toplanmıştır.
+
+İlgili Linkler:
+Sprint 1 - Daily Scrum Chats: [Imgur Linki]
 # Ürün Durumu: Ekran Görüntüleri
+<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/cae36c1c-eed1-4299-a36b-c98723f29c01" width="500" height="500">
+
