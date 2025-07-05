@@ -115,10 +115,12 @@ Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılm�
 İlgili Linkler:
 Sprint 1 - Daily Scrum Chats: [Imgur Linki]
 # Ürün Durumu: Ekran Görüntüleri
-<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="500" height="500">
-<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="500" height="500">
-<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="500" height="500">
-<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="500" height="500">
-<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="500" height="500">
-<img src="https://github.com/user-attachments/assets/cae36c1c-eed1-4299-a36b-c98723f29c01" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="400">
 
