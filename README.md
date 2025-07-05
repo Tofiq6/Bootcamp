@@ -28,9 +28,9 @@ Soulshard, karanlık bir dünyada sevgi, kayıp ve intikam üzerine kurulu bir a
 
 Kael, eşinin ölümünün ardında gizemli ve karanlık bir grup olan Redmourne'un olduğunu keşfeder. Bu grup, yüzyıllardır büyücülerin gözyaşlarını toplayarak ruhlarını Redstone'a hapsediyor ve ölümsüzlük ile büyük bir güç elde etme hayali içerisinde yaşıyor. Kael, sevdiği kadının kaybıyla birlikte, ona yeniden kavuşabilmenin hayaliyle, Redmourne'in karanlık büyülerinin etkisini kırarak Lyra'yı geri getirmek için karanlık bir yolculuğa çıkar.
 
-Bu yolculukta, Kael yalnız değildir. Lyra'nın güçlü bir büyücü olarak lanetlenmiş ruhu, ona sürekli olarak rehberlik eder. Her kaybolduğu an, Lyra’nın ruhu Kael’in yanında belirir, ona cesaret verir, doğru yolu gösterir ve Kael’i içsel savaşında yönlendirir. Lyra'nın ruhunun varlığı, Kael’in yolculuğunda ona bir ışık olur, yalnız kalmamasını sağlar.
+Bu yolculukta, Kael yalnız değildir. Lyra'nın güçlü bir büyücü olarak lanetlenmiş ruhu, ona sürekli olarak rehberlik eder. . Her kaybolduğu an, Lyra’nın ruhu Kael’in yanında belirir, ona cesaret verir, doğru yolu gösterir ve Kael’i içsel savaşında yönlendirir. Lyra'nın ruhunun varlığı, Kael’in yolculuğunda ona bir ışık olur, yalnız kalmamasını sağlar. Ancak, ne yazık ki Lyra'nın ruhu sadece belirli bir süre Kaelin yanında belirebilmektedir.
 
-Bu derin bağ, oyuncuları Kael'in duygusal yolculuğuna ortak etmeyi ve onları zor seçimlerle, zorlu dövüşlerle test etmeyi hedefler.
+Kael ve Lyra'nın arasındaki Bu derin bağ, oyuncuları onların duygusal yolculuğuna ve maceraya ortak etmeyi hedefler.
 # Oyun Özellikleri
 3D
 
