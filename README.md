@@ -67,6 +67,7 @@ Influencer İşbirlikleri: Popüler YouTube ve Twitch yayıncıları ile işbirl
 Discord Topluluğu: Oyunla ilgili bir Discord topluluğu kurarak, oyunculardan geri bildirim alacak ve onları sürekli olarak güncellemelerle bilgilendireceğiz. Bu, toplulukla bağ kurmamızı sağlayacak.
 
 3. Beta Test ve Erken Erişim
+   
 Erken Erişim: Oyunun erken erişim sürümünü Steam ve Epic Games Store gibi platformlarda satışa sunacağız. Bu, oyunculara oyunun ilk sürümünü deneyimleme fırsatı sunacak ve geri bildirim alarak geliştirme sürecine katkı sağlayacak.
 
 Beta Test: Hikaye ve mekaniklerin test edilmesi amacıyla sınırlı bir beta süreci başlatacağız. Beta testinden elde edilen geri bildirimler, oyunun son haline şekil verecek.
@@ -81,7 +82,7 @@ Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi
 
 # Sprint 1
 
-User Story'ler
+
 User Story'ler, product backlog içinde belirlenen görevlere ayrılmıştır. Bu story'ler, her bir product backlog item'a tıklandığında detaylı olarak incelenebilir.
 
 Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
