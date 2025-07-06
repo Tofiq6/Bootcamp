@@ -86,12 +86,15 @@ Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi
 User Story'ler, product backlog içinde belirlenen görevlere ayrılmıştır. Bu story'ler, her bir product backlog item'a tıklandığında detaylı olarak incelenebilir.
 
 Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
+
 Sprint boyunca tamamlanması beklenen toplam puan 100 olarak belirlenmiştir. Proje boyunca tamamlanması gereken 300 puanlık backlog, üç sprinte bölünmüş olup, ilk sprintin 100 puanla başlaması kararlaştırılmıştır.
 
-Puan Tamamlama Mantığı
+Puan Tamamlama Mantığı:
+
 Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. Bu 300 puan, üç sprinte eşit şekilde bölündü. İlk sprintin hedefi 100 puan olarak belirlenmiştir ve bu hedef doğrultusunda görevler dağıtılmıştır.
 
-Backlog Düzeni ve Story Seçimleri
+Backlog Düzeni ve Story Seçimleri:
+
 Backlog, bir sonraki sprintlerin temelini atacak şekilde düzenlenmiştir. Her sprintte tamamlanması beklenen görevlerin, tahmin edilen puan sayısını aşmaması için dikkatle seçilmiştir. Miro Board üzerinde gözüken görevlerin renk kodlaması, görev türlerini belirlemektedir:
 
 <img src="https://github.com/user-attachments/assets/cae36c1c-eed1-4299-a36b-c98723f29c01" width="500" height="500">
