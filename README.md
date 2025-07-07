@@ -13,12 +13,12 @@ Soulburners
 # Oyun İsmi
 Soulshard
 # Oyun Logosu
-<img src="https://github.com/user-attachments/assets/1515c68c-1200-4493-9401-0f56c9825f16" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/1515c68c-1200-4493-9401-0f56c9825f16" width="300" height="400">
 
 
 # Oyun Kapak Görseli
 
-<img src="https://github.com/user-attachments/assets/8546ea91-614a-49be-a784-08906ca72ffd" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/8546ea91-614a-49be-a784-08906ca72ffd" width="400" height="600">
 
 
 # Oyun Açıklaması
@@ -77,8 +77,7 @@ Duygusal Fragman: Kael ve Lyra'nın arasındaki bağı ön plana çıkaran, oyun
 
 5. Lansman İndirimi ve Paketler
 Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi sunarak oyuncuları erken erişime teşvik edeceğiz. Ayrıca, özel paketler ve bonus içerikler sunarak oyuncuları oyunu almak için cesaretlendireceğiz.
-# Sprint Board Updates
-[Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
+
 
 # Sprint 1
 
@@ -130,6 +129,10 @@ Sprint Review Katılımcıları: Şebnem Gündüz, Defne Naz Özer, Tofig Mammad
 6. Sprint Retrospective:
 Ekip, bu sprintin sonunda neler başardığını ve hangi alanlarda iyileştirmeler yapması gerektiğini değerlendirdi. Yapılan toplantılarda, oyunun ilerleyen bölümleri için hangi adımların atılması gerektiği netleştirildi. Mevcut bölümdeki eksiklikler belirlendi ve gelecek sprintlerde çözülmesi gereken önemli noktalar vurgulandı. Ayrıca, oyun için gerekli olan assetlerin listeleri oluşturulup, bu varlıkların üretimine yönelik bir yol haritası hazırlandı.
 
+ 7) Sprint Board Updates
+    
+[Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
+
 Ekip Üyeleri ve Görev Dağılımı:
 
 Ses: Burak
@@ -143,14 +146,15 @@ Kodlama: Şebnem
 Senaryo: Ekip olarak devam etmekte, düzenleme süreci devam ediyor.
 
 Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan değerlendirmelerin devam etmesi kararlaştırıldı.
+8) ScreenShots:
 
-<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" >
-<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" >
-<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" >
-<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" >
-<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" >
-<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" >
-<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" >
-<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" >
-<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" >
+<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" width="400" height="380">
+<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="380">
+<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" width="400" height="380">
 
