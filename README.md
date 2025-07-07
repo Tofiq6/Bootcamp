@@ -129,9 +129,6 @@ Sprint Review Katılımcıları: Şebnem Gündüz, Defne Naz Özer, Tofig Mammad
 6. Sprint Retrospective:
 Ekip, bu sprintin sonunda neler başardığını ve hangi alanlarda iyileştirmeler yapması gerektiğini değerlendirdi. Yapılan toplantılarda, oyunun ilerleyen bölümleri için hangi adımların atılması gerektiği netleştirildi. Mevcut bölümdeki eksiklikler belirlendi ve gelecek sprintlerde çözülmesi gereken önemli noktalar vurgulandı. Ayrıca, oyun için gerekli olan assetlerin listeleri oluşturulup, bu varlıkların üretimine yönelik bir yol haritası hazırlandı.
 
- 7) Sprint Board Updates
-    
-[Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
 
 Ekip Üyeleri ve Görev Dağılımı:
 
@@ -145,7 +142,13 @@ Kodlama: Şebnem
 
 Senaryo: Ekip olarak devam etmekte, düzenleme süreci devam ediyor.
 
+7) Sprint Board Updates
+    
+   [Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
+
+
 Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan değerlendirmelerin devam etmesi kararlaştırıldı.
+
 8) ScreenShots:
 
 <img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="600" height="350" >
