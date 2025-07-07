@@ -144,13 +144,13 @@ Senaryo: Ekip olarak devam etmekte, düzenleme süreci devam ediyor.
 
 Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan değerlendirmelerin devam etmesi kararlaştırıldı.
 
-<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" width="400" height="400">
-<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" >
+<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" >
+<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" >
+<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" >
+<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" >
+<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" >
+<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" >
+<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" >
+<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" >
 
