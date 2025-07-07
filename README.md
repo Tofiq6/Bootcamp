@@ -77,7 +77,7 @@ Duygusal Fragman: Kael ve Lyra'nın arasındaki bağı ön plana çıkaran, oyun
 
 5. Lansman İndirimi ve Paketler
 Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi sunarak oyuncuları erken erişime teşvik edeceğiz. Ayrıca, özel paketler ve bonus içerikler sunarak oyuncuları oyunu almak için cesaretlendireceğiz.
-# Product Backlog URL
+# Sprint Board Updates
 [Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
 
 # Sprint 1
@@ -85,15 +85,15 @@ Lansman İndirimi: Oyunun ilk çıkışıyla birlikte cazip bir lansman indirimi
 
 User Story'ler, product backlog içinde belirlenen görevlere ayrılmıştır. Bu story'ler, her bir product backlog item'a tıklandığında detaylı olarak incelenebilir.
 
-Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
+1)Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
 
 Sprint boyunca tamamlanması beklenen toplam puan 100 olarak belirlenmiştir. Proje boyunca tamamlanması gereken 300 puanlık backlog, üç sprinte bölünmüş olup, ilk sprintin 100 puanla başlaması kararlaştırılmıştır.
 
-Puan Tamamlama Mantığı:
+2) Puan Tamamlama Mantığı:
 
 Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. Bu 300 puan, üç sprinte eşit şekilde bölündü. İlk sprintin hedefi 100 puan olarak belirlenmiştir ve bu hedef doğrultusunda görevler dağıtılmıştır.
 
-Backlog Düzeni ve Story Seçimleri:
+3) Sprint Notları:
 
 Backlog, bir sonraki sprintlerin temelini atacak şekilde düzenlenmiştir. Her sprintte tamamlanması beklenen görevlerin, tahmin edilen puan sayısını aşmaması için dikkatle seçilmiştir. Miro Board üzerinde gözüken görevlerin renk kodlaması, görev türlerini belirlemektedir:
 
@@ -113,7 +113,7 @@ Kırmızı Item'lar: Fix - hata ayıklama görevlerini temsil eder.
 
 Turuncu Item'lar:Tasarım görevlerini temsil eder.
 
-Daily Scrum
+4) Daily Scrum
 Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılmıştır. Bu toplantılar, ekibin ilerleyişini hızla tartışabilmesi ve karşılaşılan engelleri anında çözebilmesi için oldukça önemli olmuştur. Ayrıca, günlük Whatsapp konuşmalarımız ve Daily Scrum toplantılarımız, Imgur platformunda toplanmıştır.
 
 ## İlgili Linkler:
@@ -121,12 +121,12 @@ Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılm�
 
 # Ürün Durumu: Ekran Görüntüleri
 
-Sprint Review:
+5) Sprint Review:
 Ekip, sprint sürecinde tamamlanan bölümleri ve ortaya çıkan sonuçları değerlendirdi. Oyunun mevcut tasarımı ve yönü olumlu yorumlar aldı, tüm ekip, oyun içi mekaniklerin ve görsel öğelerin uyumunu beğendi. İlerleyen sprintlerde geliştirilmesi gereken yeni fikirler üzerine konuşuldu. Sprint içinde tasarlanan level, ekip tarafından test edildi ve herhangi bir kritik hata veya sorunla karşılaşılmadı.
 
 Sprint Review Katılımcıları: Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada, Burak Alver.
 
-Sprint Retrospective:
+6) Sprint Retrospective:
 Ekip, bu sprintin sonunda neler başardığını ve hangi alanlarda iyileştirmeler yapması gerektiğini değerlendirdi. Yapılan toplantılarda, oyunun ilerleyen bölümleri için hangi adımların atılması gerektiği netleştirildi. Mevcut bölümdeki eksiklikler belirlendi ve gelecek sprintlerde çözülmesi gereken önemli noktalar vurgulandı. Ayrıca, oyun için gerekli olan assetlerin listeleri oluşturulup, bu varlıkların üretimine yönelik bir yol haritası hazırlandı.
 
 Ekip Üyeleri ve Görev Dağılımı:
