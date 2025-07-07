@@ -114,6 +114,7 @@ Kırmızı Item'lar: Fix - hata ayıklama görevlerini temsil eder.
 Turuncu Item'lar:Tasarım görevlerini temsil eder.
 
 4. Daily Scrum
+   
 Daily Scrum toplantılarının Discord üzerinden yapılması kararlaştırılmıştır. Bu toplantılar, ekibin ilerleyişini hızla tartışabilmesi ve karşılaşılan engelleri anında çözebilmesi için oldukça önemli olmuştur. Ayrıca, günlük Whatsapp konuşmalarımız ve Daily Scrum toplantılarımız, Imgur platformunda toplanmıştır.
 
 ## İlgili Linkler:
