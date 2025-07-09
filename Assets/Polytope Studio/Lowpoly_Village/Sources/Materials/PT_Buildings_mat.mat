@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: PT_Buildings_mat
   m_Shader: {fileID: 4800000, guid: 255b400e6b8ac644588946664da1ff3f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _GRADIENT_ON
@@ -26,6 +28,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -34,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Exteriorwallstexture:
-        m_Texture: {fileID: 2800000, guid: f4eb315dde56f204bb13b39760d2f3b1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5597dc21a8aed4e7ba2c0f93dc4b1d98, type: 3}
         m_Scale: {x: 7.32, y: -2.14}
         m_Offset: {x: 0.17, y: 0.35}
     - _Interiorwallstexture:
@@ -110,3 +113,4 @@ Material:
     - _Wood2color: {r: 0.24528301, g: 0.10263903, b: 0.059006754, a: 1}
     - _Wood3color: {r: 0.2735849, g: 0.1579125, b: 0.04774831, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
