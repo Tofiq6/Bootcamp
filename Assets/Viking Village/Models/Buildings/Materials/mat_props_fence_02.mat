@@ -10,7 +10,7 @@ Material:
   m_Name: mat_props_fence_02
   m_Shader: {fileID: -6465566751694194690, guid: 65ab067e659b9d64cb1b6f50a7ee7735,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 68d09628a32384371bb295c3e02edf8f, type: 2}
+  m_Parent: {fileID: 2100000, guid: c3b1f9a295d9dda43886ca4e17cd7cf2, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
