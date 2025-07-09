@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5be68e4a2886d6642a8664dbf67ed066
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29140
+  packageName: Viking Village URP
+  packageVersion: 1.1.1
+  assetPath: Assets/Viking Village/Models/Buildings/Materials/mat_build_village_fence_01.mat
+  uploadId: 496047
