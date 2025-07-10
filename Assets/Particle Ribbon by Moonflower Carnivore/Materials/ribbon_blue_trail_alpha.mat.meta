@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 841d467819e15104f909254f5adeef35
+timeCreated: 1452871865
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Materials/ribbon_blue_trail_alpha.mat
+  uploadId: 234696

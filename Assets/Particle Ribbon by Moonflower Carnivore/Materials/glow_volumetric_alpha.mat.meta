@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dea41af3d4536ac4080332ae1e0d6fd1
+timeCreated: 1442503291
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_volumetric_alpha.mat
+  uploadId: 234696
