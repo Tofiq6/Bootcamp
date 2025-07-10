@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ba79c336eab8e9449a31034890dd7e2
+timeCreated: 1438254484
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Materials/circle_vertexlit.mat
+  uploadId: 234696

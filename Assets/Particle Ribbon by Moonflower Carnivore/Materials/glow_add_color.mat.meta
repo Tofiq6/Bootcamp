@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b6a5bfa65bbb9a4587a2e8c283cf977
+timeCreated: 1455240052
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_add_color.mat
+  uploadId: 234696

@@ -4,7 +4,6 @@ using System.Collections;
 
 public class DynamicChaseTrigger : MonoBehaviour
 {
-    // PUBLIC OLARAK YAPILAN DEÐÝÞKENLERÝN INSPECTOR'DA GÖRÜNMESÝ SAÐLANIR
     public Follower follower; // Takipçi karakteri
     public float followDuration = 10f; // Takip süresi (saniye cinsinden)
     public string[] subtitles; // Ekranda sýrasýyla gösterilecek yazýlar

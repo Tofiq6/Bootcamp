@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 85845851ac3548543a5daac1e96cac4a
+timeCreated: 1497073334
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Shaders/Particle Alpha
+    Blend HDR.shader
+  uploadId: 234696

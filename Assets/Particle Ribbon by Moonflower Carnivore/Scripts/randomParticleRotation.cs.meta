@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2c4f4934bc63b1f4e95c3c39cff32c5d
+timeCreated: 1497060463
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Scripts/randomParticleRotation.cs
+  uploadId: 0
