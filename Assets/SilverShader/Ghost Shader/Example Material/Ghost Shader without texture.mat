@@ -45,10 +45,10 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Outline: 0.544
+    - _Outline: 0.252
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Transparency: 0.593
+    - _Transparency: 0.413
     m_Colors:
     - _Ghost_Color: {r: 0.2924528, g: 0.27727836, b: 0.27727836, a: 0}
   m_BuildTextureStacks: []
