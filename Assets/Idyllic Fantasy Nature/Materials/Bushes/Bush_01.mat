@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bush_01
-  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -182,13 +183,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 0.9259865, b: 0.18396229, a: 1}
     - _BottomColor: {r: 0.58431375, g: 0.5051607, b: 0, a: 0}
-    - _Bottom_Color: {r: 0.8380281, g: 1, b: 0, a: 0}
+    - _Bottom_Color: {r: 0.57320017, g: 0.6830188, b: 0, a: 0}
     - _Color: {r: 1, g: 0.9259865, b: 0.18396229, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Player_Position: {r: 169.991, g: 19.89849, b: 166.09459, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TopColor: {r: 0.7651269, g: 0.7924528, b: 0, a: 0}
-    - _Top_Color: {r: 0.75746846, g: 0.8867924, b: 0, a: 0}
+    - _Top_Color: {r: 0.3512606, g: 0.4113207, b: 0, a: 0}
     - _WindDirection: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Wind_Direction: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
