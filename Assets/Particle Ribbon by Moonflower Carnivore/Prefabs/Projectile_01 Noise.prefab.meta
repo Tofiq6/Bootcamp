@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 59df0f563f95c764e87867ff8ddcdb83
+timeCreated: 1480836351
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Projectile_01
+    Noise.prefab
+  uploadId: 234696

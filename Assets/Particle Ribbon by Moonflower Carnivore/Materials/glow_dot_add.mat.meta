@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 25bd086592405bc4b85fb8280fe53759
+timeCreated: 1438140810
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42866
+  packageName: Particle Ribbon
+  packageVersion: 1.07
+  assetPath: Assets/Particle Ribbon by Moonflower Carnivore/Materials/glow_dot_add.mat
+  uploadId: 234696

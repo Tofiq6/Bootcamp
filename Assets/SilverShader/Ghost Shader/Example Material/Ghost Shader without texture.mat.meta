@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 59075f775befbc94fb3f2bc60ca0f90b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 282923
+  packageName: Ghost Effect Shader
+  packageVersion: 1.0
+  assetPath: Assets/SilverShader/Ghost Shader/Example Material/Ghost Shader without
+    texture.mat
+  uploadId: 658673
