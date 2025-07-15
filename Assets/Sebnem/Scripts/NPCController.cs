@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(Rigidbody))]
 public class NPCController : MonoBehaviour
 {
     public float moveSpeed = 2f;
@@ -11,6 +12,7 @@ public class NPCController : MonoBehaviour
     private bool isWaiting = false;
 
     private Animator animator;
+    private Rigidbody rb;
 
     public Transform player;
     public float detectionRange = 5f;
@@ -19,19 +21,23 @@ public class NPCController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
+
+        rb.useGravity = true;
+        rb.constraints = RigidbodyConstraints.FreezeRotation; // Dönme engellensin
+
         SetWalking(true);
     }
 
     void Update()
     {
-        // Oyuncu kontrolü
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
         if (distanceToPlayer < detectionRange)
         {
             if (!playerInRange)
             {
                 playerInRange = true;
-                ReactToPlayer(); // Oyuncuyu fark edince ne yapacaðýný tanýmlar
+                ReactToPlayer();
             }
         }
         else
@@ -39,30 +45,38 @@ public class NPCController : MonoBehaviour
             if (playerInRange)
             {
                 playerInRange = false;
-                ResumePatrol(); // Oyuncu uzaklaþýnca tekrar devriyeye baþla
+                ResumePatrol();
             }
         }
 
-        // Patrol yapma
         if (!isWaiting && !playerInRange)
         {
-            Patrol();
+            MoveToWaypoint();
         }
     }
 
-    void Patrol()
+    void MoveToWaypoint()
     {
-        Vector3 direction = waypoints[currentTarget].position - transform.position;
-        direction.y = 0f;
+        Vector3 targetPosition = waypoints[currentTarget].position;
+        Vector3 moveDirection = targetPosition - transform.position;
+        moveDirection.y = 0f; // Y ekseninde hareket etme!
 
-        if (direction.magnitude < 0.1f)
+        if (moveDirection.magnitude < 0.1f)
         {
             StartCoroutine(WaitAndNextPoint());
             return;
         }
 
-        transform.position += direction.normalized * moveSpeed * Time.deltaTime;
-        transform.forward = direction.normalized;
+        // Rigidbody ile hareket
+        Vector3 movement = moveDirection.normalized * moveSpeed * Time.deltaTime;
+        rb.MovePosition(rb.position + movement);
+
+        // Yüzünü hedefe çevir
+        if (moveDirection != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 10f * Time.deltaTime);
+        }
     }
 
     IEnumerator WaitAndNextPoint()
@@ -90,13 +104,10 @@ public class NPCController : MonoBehaviour
         SetWalking(false);
         isWaiting = true;
 
-        // Oyuncuya bak (dön)
-        Vector3 lookDirection = player.position - transform.position;
-        lookDirection.y = 0;
-        transform.forward = lookDirection.normalized;
-
-        // Tepki animasyonu varsa tetikle (örneðin el sallama, þaþýrma vb.)
-        // animator.SetTrigger("Wave"); // örnek
+        Vector3 lookDir = player.position - transform.position;
+        lookDir.y = 0f;
+        if (lookDir != Vector3.zero)
+            transform.forward = lookDir.normalized;
     }
 
     void ResumePatrol()

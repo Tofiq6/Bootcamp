@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 186b3c4ee440a154eb014aaeeb5d5c1f
+timeCreated: 1519393973
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/Carpet02.prefab
+  uploadId: 248818

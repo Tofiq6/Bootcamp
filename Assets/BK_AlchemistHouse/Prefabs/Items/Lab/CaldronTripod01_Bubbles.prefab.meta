@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2e3e5f9ebffeb774596940c60b8f8713
+timeCreated: 1519429231
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/CaldronTripod01_Bubbles.prefab
+  uploadId: 248818

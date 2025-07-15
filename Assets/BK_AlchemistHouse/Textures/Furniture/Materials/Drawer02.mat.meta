@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 558f1954fd6ed7b4ca4ab96bbc705139
+timeCreated: 1510714231
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Drawer02.mat
+  uploadId: 248818

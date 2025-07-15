@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f1c87fe58dd49eb429a17003aee52129
+labels:
+- Architecture
+timeCreated: 1518785971
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Architecture/IntCeilingPillarBend.prefab
+  uploadId: 248818

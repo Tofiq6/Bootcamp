@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: afed15aa14656e24caf85a97cb40ca48
+timeCreated: 1504396251
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Weapons01.mat
+  uploadId: 248818

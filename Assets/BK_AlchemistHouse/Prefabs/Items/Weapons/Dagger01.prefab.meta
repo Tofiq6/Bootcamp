@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 84a1aeb93b6c38d47b85d601a50b0263
+timeCreated: 1504397254
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Dagger01.prefab
+  uploadId: 248818

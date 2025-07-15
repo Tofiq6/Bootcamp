@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bebfb14ad739a1c48959e3ba26cfb2a3
+labels:
+- Furniture
+timeCreated: 1502939795
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/WoodShelf01.prefab
+  uploadId: 248818

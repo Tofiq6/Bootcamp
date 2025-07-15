@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ab1f83aab7d56ec4da26c2b690484eff
+timeCreated: 1503536883
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassReflection_blue.mat
+  uploadId: 248818

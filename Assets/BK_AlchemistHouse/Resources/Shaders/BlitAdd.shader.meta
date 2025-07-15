@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23c7f2216a2baf542ba70961829ab45d
+timeCreated: 1519694948
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Resources/Shaders/BlitAdd.shader
+  uploadId: 248818

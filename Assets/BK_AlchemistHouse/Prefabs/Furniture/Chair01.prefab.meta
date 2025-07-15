@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e68a619303cb1e44ea3dde236af3366e
+labels:
+- Furniture
+timeCreated: 1503852811
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/Chair01.prefab
+  uploadId: 248818

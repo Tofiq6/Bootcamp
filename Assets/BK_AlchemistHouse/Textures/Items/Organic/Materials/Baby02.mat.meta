@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b20c62883ab67b44dacf7a214bd52c3a
+timeCreated: 1508368251
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/Baby02.mat
+  uploadId: 248818

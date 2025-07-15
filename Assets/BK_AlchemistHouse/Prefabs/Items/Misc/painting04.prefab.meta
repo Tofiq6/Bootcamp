@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 74669705c1d8b6542a952b6b61483a67
+timeCreated: 1519511844
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Misc/painting04.prefab
+  uploadId: 248818

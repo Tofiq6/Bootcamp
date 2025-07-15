@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 74ae0f74ef747814a993d47053eb558e
+timeCreated: 1513041005
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Workbench_normals.mat
+  uploadId: 248818

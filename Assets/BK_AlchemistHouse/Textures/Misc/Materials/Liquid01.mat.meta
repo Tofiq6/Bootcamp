@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5117d9ae7adc2974b8d3ad819f6d19f0
+timeCreated: 1509399870
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Misc/Materials/Liquid01.mat
+  uploadId: 248818

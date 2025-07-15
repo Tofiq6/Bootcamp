@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f1531a9bd4087ff468de8de09f6ba126
+timeCreated: 1459178237
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Resources/Shaders/VolumetricLight.shader
+  uploadId: 248818
