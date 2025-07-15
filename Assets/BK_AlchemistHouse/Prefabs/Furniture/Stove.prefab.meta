@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d98014475d2b61f4aa63159ba262e054
+labels:
+- Furniture
+timeCreated: 1518420316
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/Stove.prefab
+  uploadId: 248818

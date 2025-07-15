@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7e3de33441ef7444db507d1cd2fec1ae
+timeCreated: 1501730381
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough04.mat
+  uploadId: 248818

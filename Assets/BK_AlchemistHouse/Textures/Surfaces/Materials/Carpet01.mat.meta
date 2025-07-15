@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f39c548dd941b8143b4d334dc68be6b1
+timeCreated: 1502308696
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Carpet01.mat
+  uploadId: 248818

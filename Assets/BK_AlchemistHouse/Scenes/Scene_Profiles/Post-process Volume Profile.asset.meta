@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c5d28bbeb88a5d4d90feb4c0c192c5d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Scenes/Scene_Profiles/Post-process Volume Profile.asset
+  uploadId: 248818

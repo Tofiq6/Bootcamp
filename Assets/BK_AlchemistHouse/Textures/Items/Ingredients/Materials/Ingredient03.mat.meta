@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 77e7174c8be895641af65e2ceb4636f3
+timeCreated: 1510102200
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient03.mat
+  uploadId: 248818

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e510b292612edaf4ca227ccd642394b4
+timeCreated: 1502388002
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassBrown.mat
+  uploadId: 248818

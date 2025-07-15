@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cfba19a91babb4642892417108591af0
+labels:
+- Furniture
+timeCreated: 1517954000
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/table03.prefab
+  uploadId: 248818

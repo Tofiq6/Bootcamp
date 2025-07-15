@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9b0c8952fc97e994fb2d53bd5a44acc3
+timeCreated: 1519406179
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/Caldron01.prefab
+  uploadId: 248818

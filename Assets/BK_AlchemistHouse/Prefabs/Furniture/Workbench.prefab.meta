@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 98eeefe81c0767849968a9bfbc0c45ea
+labels:
+- Furniture
+timeCreated: 1513101415
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Furniture/Workbench.prefab
+  uploadId: 248818

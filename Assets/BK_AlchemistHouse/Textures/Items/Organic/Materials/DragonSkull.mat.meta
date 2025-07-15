@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9ff2e80dbd4dec4409cfa878ef98a4ba
+timeCreated: 1502331344
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/DragonSkull.mat
+  uploadId: 248818

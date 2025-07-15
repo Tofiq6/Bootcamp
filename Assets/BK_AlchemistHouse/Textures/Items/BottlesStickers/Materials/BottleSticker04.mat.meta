@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 14171a1a4455e6844b2832300a256f1b
+timeCreated: 1509595403
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker04.mat
+  uploadId: 248818

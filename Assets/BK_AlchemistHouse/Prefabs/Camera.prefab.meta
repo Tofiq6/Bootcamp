@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 10899ca432e87ce4eb8f93c0c7216a21
+timeCreated: 1520921573
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Camera.prefab
+  uploadId: 248818

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ed4f85510daf22443b1f2f33e8b958d4
+timeCreated: 1502569485
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Misc/Basket01.prefab
+  uploadId: 248818

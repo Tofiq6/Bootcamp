@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb028c0b99da8ba4ea38168869d4c693
+timeCreated: 1502929884
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterGlass02.prefab
+  uploadId: 248818

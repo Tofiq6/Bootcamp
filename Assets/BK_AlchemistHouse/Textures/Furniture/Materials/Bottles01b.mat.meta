@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 57cfe354d3b94924094cd11a009f9e80
+timeCreated: 1504368215
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Bottles01b.mat
+  uploadId: 248818

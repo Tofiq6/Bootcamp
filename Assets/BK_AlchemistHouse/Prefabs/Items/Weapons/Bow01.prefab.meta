@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eaa77e0b73f86e24fa9078dbfadf94bb
+timeCreated: 1504397257
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Bow01.prefab
+  uploadId: 248818

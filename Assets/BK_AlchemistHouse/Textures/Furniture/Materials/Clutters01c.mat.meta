@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 26d89b5e0eac982449da92cdfe946a30
+timeCreated: 1503517407
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Clutters01c.mat
+  uploadId: 248818

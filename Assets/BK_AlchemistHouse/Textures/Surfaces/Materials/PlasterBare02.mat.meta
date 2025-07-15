@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f82d93d93555dbd4eb6e5429b8ed9df4
+timeCreated: 1501730307
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare02.mat
+  uploadId: 248818

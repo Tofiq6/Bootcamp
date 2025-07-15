@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2a356895f9eca24e93f087c3bbf3a34
+timeCreated: 1504397248
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Sword01.prefab
+  uploadId: 248818

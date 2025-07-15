@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e0d4d52fea702384089c59d8d5275d9f
+timeCreated: 1502929904
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterBowl01.prefab
+  uploadId: 248818

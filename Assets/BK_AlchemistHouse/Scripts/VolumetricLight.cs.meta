@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dafc90245bfe9e2408e358f71deace2a
+timeCreated: 1459178235
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Scripts/VolumetricLight.cs
+  uploadId: 248818

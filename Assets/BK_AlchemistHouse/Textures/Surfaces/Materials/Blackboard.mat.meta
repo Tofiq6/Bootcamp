@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4cf0fa5bb9003da4da57a64ce103ccd2
+timeCreated: 1502329321
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Blackboard.mat
+  uploadId: 248818

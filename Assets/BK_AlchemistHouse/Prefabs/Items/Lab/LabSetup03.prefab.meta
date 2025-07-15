@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 546b86b9cac40df49bb5e0d69ff0178d
+timeCreated: 1502939624
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup03.prefab
+  uploadId: 248818

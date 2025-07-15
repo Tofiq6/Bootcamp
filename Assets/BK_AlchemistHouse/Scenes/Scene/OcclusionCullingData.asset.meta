@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 266abb20585065f4f9eae350cf4da1cd
+timeCreated: 1520913882
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 36300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Scenes/Scene/OcclusionCullingData.asset
+  uploadId: 248818

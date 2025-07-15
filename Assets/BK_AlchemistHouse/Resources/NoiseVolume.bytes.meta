@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f63cb0bcffcbc504386c7eb3ecb543d4
+timeCreated: 1455573184
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Resources/NoiseVolume.bytes
+  uploadId: 248818

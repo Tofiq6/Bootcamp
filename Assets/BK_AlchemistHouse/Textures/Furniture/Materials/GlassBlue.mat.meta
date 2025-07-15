@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e8e7940655c0adb45a11dbfdaba41be2
+timeCreated: 1503537126
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassBlue.mat
+  uploadId: 248818
