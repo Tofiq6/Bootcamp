@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 99d1fecb38c7bef41b71767f41b46db1
+timeCreated: 1508425961
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask01.prefab
+  uploadId: 248818

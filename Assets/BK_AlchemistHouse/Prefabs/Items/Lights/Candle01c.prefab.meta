@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 841329a8c19b94540ac8bc6acebbc487
+timeCreated: 1508717911
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Lights/Candle01c.prefab
+  uploadId: 248818

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 80d4fc7398cca6a47a39618378fdf9ad
+timeCreated: 1504308568
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle04.prefab
+  uploadId: 248818

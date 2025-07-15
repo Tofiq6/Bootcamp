@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1e474545e8c18814b9fcc93023b7eae9
+timeCreated: 1504058920
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book13.prefab
+  uploadId: 248818

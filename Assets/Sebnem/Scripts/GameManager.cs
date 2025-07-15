@@ -1,24 +1,75 @@
 using UnityEngine;
-using TMPro; // TextMesh Pro'yu kullanmak için gerekli
+using TMPro;
+using UnityEngine.UI;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI flowerCountText; // TextMesh Pro'yu kullanýyoruz.
-    private int flowerCount = 0; // Toplanan çiçek sayýsý.
+    public TextMeshProUGUI flowerCountText;
+    private RectTransform flowerCountRect;
+    private CanvasGroup canvasGroup;
+
+    private int flowerCount = 0;
+    public int totalFlowerCount = 10;
 
     private void Start()
     {
-        UpdateFlowerCountText(); // Baþlangýçta sayýyý güncelle.
+        flowerCountRect = flowerCountText.GetComponent<RectTransform>();
+
+        // CanvasGroup ekle (eðer yoksa)
+        canvasGroup = flowerCountText.GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+            canvasGroup = flowerCountText.gameObject.AddComponent<CanvasGroup>();
+
+        canvasGroup.alpha = 0f;
+        StartCoroutine(FadeInUI());
+        UpdateFlowerCountText();
     }
 
     public void CollectFlower()
     {
-        flowerCount++; // Çiçek sayýsýný arttýr.
-        UpdateFlowerCountText(); // UI'yi güncelle.
+        flowerCount++;
+        UpdateFlowerCountText();
+
+        if (flowerCount >= totalFlowerCount)
+        {
+            StartCoroutine(FadeOutUI());
+        }
     }
 
     private void UpdateFlowerCountText()
     {
-        flowerCountText.text = flowerCount + "/10"; // Çiçek sayýsýný UI'da göster.
+        flowerCountText.text = flowerCount + "/" + totalFlowerCount;
+    }
+
+    private IEnumerator FadeInUI()
+    {
+        float duration = 0.5f;
+        float t = 0f;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(0f, 1f, t / duration);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 1f;
+    }
+
+    private IEnumerator FadeOutUI()
+    {
+        float duration = 0.5f;
+        float t = 0f;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(1f, 0f, t / duration);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 0f;
+        flowerCountText.gameObject.SetActive(false);
     }
 }

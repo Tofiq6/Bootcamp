@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a48529e3c8cffeb49b103f39d34d1f37
+timeCreated: 1505269414
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Misc/Trunk01.prefab
+  uploadId: 248818

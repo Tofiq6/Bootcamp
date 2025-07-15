@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e6c181110cfd13a418ca14946069ea71
+timeCreated: 1502161029
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassRefraction.mat
+  uploadId: 248818

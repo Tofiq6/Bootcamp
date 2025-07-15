@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c1d5d44853388f84baa4d9c1ea676592
+timeCreated: 1502842252
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterPichet02.prefab
+  uploadId: 248818

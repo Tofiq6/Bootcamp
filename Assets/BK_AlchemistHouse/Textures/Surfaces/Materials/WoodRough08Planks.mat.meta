@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d1f10bc650e8884cba607b064c2c0b8
+timeCreated: 1510553018
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough08Planks.mat
+  uploadId: 248818

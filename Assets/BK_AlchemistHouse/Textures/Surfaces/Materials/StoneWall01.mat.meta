@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f2d652e95d4eb443aef949c2760c822
+timeCreated: 1502118089
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneWall01.mat
+  uploadId: 248818

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ff36c605a739def44ad4a550d4ab7d54
+labels:
+- Architecture
+timeCreated: 1518769214
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Architecture/Door.prefab
+  uploadId: 248818

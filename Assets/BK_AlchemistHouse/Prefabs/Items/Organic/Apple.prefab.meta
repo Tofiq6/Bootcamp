@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bd1e8cdbcae39fa43a05ffc068cacf2b
+timeCreated: 1509571076
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Organic/Apple.prefab
+  uploadId: 248818

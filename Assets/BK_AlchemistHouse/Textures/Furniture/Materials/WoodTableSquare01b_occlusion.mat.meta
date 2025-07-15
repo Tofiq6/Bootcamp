@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 20e2f4866e25e85478f6ee3aad2c96d8
+timeCreated: 1518774431
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/WoodTableSquare01b_occlusion.mat
+  uploadId: 248818

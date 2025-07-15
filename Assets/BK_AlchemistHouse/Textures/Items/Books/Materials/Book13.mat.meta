@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b28ce2bfb9d98f2448bc043d1715c3ba
+timeCreated: 1504041779
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book13.mat
+  uploadId: 248818

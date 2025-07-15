@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8e5670ae1b106e647b63b0595bf080a2
+timeCreated: 1504397251
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Staff01.prefab
+  uploadId: 248818

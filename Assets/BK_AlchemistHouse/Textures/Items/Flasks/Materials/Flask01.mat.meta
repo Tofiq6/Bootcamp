@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 99213643649bdb34ca2f6536fa1fcf44
+timeCreated: 1508398477
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Materials/Flask01.mat
+  uploadId: 248818

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ce30629ec81796b469184d3c5b81470f
+timeCreated: 1503948426
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book10c.mat
+  uploadId: 248818

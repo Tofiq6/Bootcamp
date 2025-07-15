@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2ae57c3630be8ab4b8dfc93a820eb3b0
+timeCreated: 1509422274
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/WoodCupboard03_glass.mat
+  uploadId: 248818

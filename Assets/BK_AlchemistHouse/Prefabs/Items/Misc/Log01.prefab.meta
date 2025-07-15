@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e18c8c11c52563d42ad2e78dc45da553
+timeCreated: 1518618255
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Misc/Log01.prefab
+  uploadId: 248818

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 71b9adff55df1224f8d1f7907dbdcb83
+timeCreated: 1510117966
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Jar/Materials/Jar02.mat
+  uploadId: 248818

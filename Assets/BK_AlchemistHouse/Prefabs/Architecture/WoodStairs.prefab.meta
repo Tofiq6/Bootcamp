@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e659ac473f42b244dbbecd69649dcabe
+labels:
+- Architecture
+timeCreated: 1509488431
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Architecture/WoodStairs.prefab
+  uploadId: 248818

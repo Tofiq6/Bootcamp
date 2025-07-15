@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8db4290f9d233fd41a9cc4c7ae9fff26
+timeCreated: 1505336350
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Items/Lights/Materials/Oillamp01Light.mat
+  uploadId: 248818

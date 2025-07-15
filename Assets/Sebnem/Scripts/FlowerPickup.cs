@@ -1,33 +1,57 @@
 using UnityEngine;
-using TMPro; // TextMesh Pro kullanýmý için gerekli.
 
 public class FlowerPickup : MonoBehaviour
 {
-    public GameManager gameManager; // GameManager'ý referans alýyoruz.
-    public GameObject pickupUI; // UI gösterilecek nesne.
+    public GameManager gameManager;
+    public GameObject pickupUI;
+
+    private bool isPlayerNear = false;
+
+    private void Start()
+    {
+        if (pickupUI != null)
+            pickupUI.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Eðer oyuncu çiçeðe yakýnsa
+        if (other.CompareTag("Player"))
         {
-            pickupUI.SetActive(true); // Ekranda "E" tuþu ile toplama yönergesini göster
+            isPlayerNear = true;
+            if (pickupUI != null)
+                pickupUI.SetActive(true);
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (!isPlayerNear)
+            {
+                isPlayerNear = true;
+                if (pickupUI != null)
+                    pickupUI.SetActive(true);
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) // Eðer oyuncu çiçekten uzaklaþýrsa
+        if (other.CompareTag("Player"))
         {
-            pickupUI.SetActive(false); // UI'yi gizle
+            isPlayerNear = false;
+            if (pickupUI != null)
+                pickupUI.SetActive(false);
         }
     }
 
     private void Update()
     {
-        if (pickupUI.activeSelf && Input.GetKeyDown(KeyCode.E)) // Eðer UI aktifse ve E'ye basýlmýþsa
+        if (isPlayerNear && Input.GetKeyDown(KeyCode.E))
         {
-            gameManager.CollectFlower(); // Çiçek toplama fonksiyonunu çaðýr.
-            Destroy(gameObject); // Çiçek objesini yok et.
+            gameManager.CollectFlower();
+            Destroy(gameObject);
         }
     }
 }

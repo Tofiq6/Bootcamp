@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7595edcf12c65a444b56f300f9f3e18b
+timeCreated: 1510129194
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Prefabs/Items/Ingredients/ClutterBowl03Ing03b.prefab
+  uploadId: 248818

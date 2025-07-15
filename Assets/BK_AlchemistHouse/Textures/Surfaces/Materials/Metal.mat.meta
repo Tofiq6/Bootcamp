@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0a95b9b121d14d7489c8ac73a9d1cbfb
+timeCreated: 1501787913
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Metal.mat
+  uploadId: 248818

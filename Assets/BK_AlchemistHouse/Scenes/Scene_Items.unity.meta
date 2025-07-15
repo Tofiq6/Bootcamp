@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4a1499c57bd8d140a163a91eaa4aec7
+timeCreated: 1519587632
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 112442
+  packageName: Alchemist House
+  packageVersion: 1.0
+  assetPath: Assets/BK_AlchemistHouse/Scenes/Scene_Items.unity
+  uploadId: 248818
