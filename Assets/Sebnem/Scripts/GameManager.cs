@@ -6,7 +6,6 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI flowerCountText;
-    private RectTransform flowerCountRect;
     private CanvasGroup canvasGroup;
 
     private int flowerCount = 0;
@@ -14,9 +13,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        flowerCountRect = flowerCountText.GetComponent<RectTransform>();
-
-        // CanvasGroup ekle (eðer yoksa)
         canvasGroup = flowerCountText.GetComponent<CanvasGroup>();
         if (canvasGroup == null)
             canvasGroup = flowerCountText.gameObject.AddComponent<CanvasGroup>();
