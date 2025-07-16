@@ -11,7 +11,7 @@ public class NPCController : MonoBehaviour
     public float waitTime = 2f;
     private bool isWaiting = false;
 
-    private Animator animator;
+    public Animator animator;
     private Rigidbody rb;
 
     public Transform player;
@@ -20,7 +20,6 @@ public class NPCController : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
 
         rb.useGravity = true;

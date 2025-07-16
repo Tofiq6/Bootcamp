@@ -30,8 +30,6 @@ public class FlowerPickup : MonoBehaviour
             if (!isPlayerNear)
             {
                 isPlayerNear = true;
-                if (pickupUI != null)
-                    pickupUI.SetActive(true);
             }
         }
     }
@@ -50,6 +48,7 @@ public class FlowerPickup : MonoBehaviour
     {
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E))
         {
+            pickupUI.SetActive(false);
             gameManager.CollectFlower();
             Destroy(gameObject);
         }
