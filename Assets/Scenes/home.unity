@@ -41139,8 +41139,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.6783715, z: 2.735781}
+  m_Center: {x: 0, y: -0.3391859, z: -0.8678912}
 --- !u!4 &726963846
 Transform:
   m_ObjectHideFlags: 0
@@ -46279,8 +46279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e16f0e19b3c14498b6338820ff1d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1216637825}
+  character: {fileID: 1517707026}
   animator: {fileID: 836395383}
+  ayarVector: {x: 0.25, y: 0, z: -0.2}
 --- !u!114 &836395381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64789,37 +64790,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1 &1216637825
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1216637826}
-  m_Layer: 8
-  m_Name: Kucak
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1216637826
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216637825}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 1.328, z: 0.366}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1517707027}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1218053773
 GameObject:
   m_ObjectHideFlags: 0
@@ -69518,6 +69488,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -7823293702887809713, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 80ef85273b508f54f852f9fcf602b914, type: 2}
     - target: {fileID: -7657966619581158213, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -69573,6 +69548,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -5738929356375114689, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f1e870b858a5e44f8c657709e88cbf2, type: 2}
     - target: {fileID: -5561550452697079657, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -69727,6 +69707,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fe2bf2254e90a8e41864e26b07974d08, type: 2}
     - target: {fileID: 1711505207429034123, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -69737,6 +69722,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2321523695958950486, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 209cfbd8bba5ea14f8c3e2f38d963d64, type: 2}
     - target: {fileID: 2586065998465600510, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -69792,6 +69782,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4123177642777943866, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d7c4c999690041f4285f0633eb22dc28, type: 2}
     - target: {fileID: 4237274458221626025, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -69812,6 +69807,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5128063986421979777, guid: afd7f77df69529e49be36c51a44e0f86,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4170069df6bbba0419adef25355c1306, type: 2}
     - target: {fileID: 6240733294840144465, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       propertyPath: m_Layer
@@ -72834,8 +72834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e16f0e19b3c14498b6338820ff1d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1216637825}
+  character: {fileID: 0}
   animator: {fileID: 836395383}
+  ayarVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1375444287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80694,7 +80695,6 @@ Transform:
   - {fileID: 1411798590}
   - {fileID: 1976541897}
   - {fileID: 1412469442}
-  - {fileID: 1216637826}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 10.518, y: 270, z: 0.012}
 --- !u!114 &1517707028
@@ -84473,7 +84473,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -550}
-  m_SizeDelta: {x: 700, y: 200}
+  m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583577869
 MonoBehaviour:
@@ -84522,8 +84522,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -88744,31 +88744,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subtitleLines:
-  - text: wadawd
+  - text: "Lyra! Lyra, bekle... Buraday\u0131m. Sana ne oldu?"
     displayDuration: 5
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: fcc0e9d0bf073a24d8b890c5b011ad56, type: 3}
-  - text: awdawd
+  - text: "Ma\u011Fara... Kael... Atalar\u0131n tap\u0131na\u011F\u0131... Ay...
+      I\u015F\u0131k havuzu..."
     displayDuration: 10
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: 1dc3afcb85dbc6e459dd537a7cfd5bbf, type: 3}
-  - text: awdawd
+  - text: "Ay I\u015F\u0131\u011F\u0131 Havuzu... Evet, evet, seni oraya g\xF6t\xFCrece\u011Fim!
+      Sular\u0131 v\xFCcudunu koruyacak."
     displayDuration: 8
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: 777ced42866e2d34b97d13183aaa2d54, type: 3}
-  - text: awdaw
+  - text: ...
     displayDuration: 3
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: 8d20cf3f1e6eae547879e474caabf140, type: 3}
-  - text: awdawd
+  - text: Lyra..
     displayDuration: 6
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: f089ccff1d84bb64c8542b76a87d8c20, type: 3}
-  - text: awdawd
+  - text: ...
     displayDuration: 1
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: 0255e0710d2bc044683cea13ea320b38, type: 3}
-  - text: awdawd
+  - text: "Seni benden ald\u0131lar... B\xF6yle bitmesine izin vermeyece\u011Fim.
+      Bir yolunu bulaca\u011F\u0131m Lyra. Geri d\xF6nece\u011Fim. Ne pahas\u0131na
+      olursa olsun..."
     displayDuration: 11
     delayBeforeNext: 0
     audioClip: {fileID: 8300000, guid: 9d45aecf57a9a274595f8b8b294751a7, type: 3}
