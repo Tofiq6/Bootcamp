@@ -179,7 +179,7 @@ Proje süresince tamamlanması gereken toplam 300 puanlık backlog, üç eşit s
 
 Sprintteki görevler, birinci sprintte tamamlanan temel yapının üzerine yeni mekaniklerin eklenmesini sağlayacak şekilde belirlenmiştir. Aynı zamanda oyuncu deneyimini geliştirecek yeni içeriklerin de eklenmesi hedeflenmiştir. Backlog öğeleri, sprint kapasitesini aşmayacak şekilde seçilmiş ve ekip üyelerine dengeli bir şekilde dağıtılmıştır.
 
-<img src="https://github.com/user-attachments/assets/cae36c1c-eed1-4299-a36b-c98723f29c01" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/3bf3e4c6-01b3-4691-a182-a4f9cf575f5d"  width="500" height="500">
 
 
 
