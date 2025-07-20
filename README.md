@@ -239,12 +239,10 @@ Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan
 
 8) ScreenShots:
 
-<img src="https://github.com/user-attachments/assets/7444626b-8a30-40bb-981f-1808f224bc5a" width="600" height="350" >
-<img src="https://github.com/user-attachments/assets/e46d1785-f186-4f4c-8a20-7ed60de4b9a0" width="600" height="350" >
-<img src="https://github.com/user-attachments/assets/fe85d7dd-797d-48c2-9a5f-49070244bb8c" width="600" height="350" >
-<img src="https://github.com/user-attachments/assets/fffa9108-88e0-4815-86f6-1519bc5ab151" width="600" height="350">
-<img src="https://github.com/user-attachments/assets/aaac2fca-2df3-4956-b2f1-63651dfe532c" width="600" height="350">
-<img src="https://github.com/user-attachments/assets/3157e04d-50ae-46ea-9e01-1a4f3ff5fa57" width="400" height="380">
-<img src="https://github.com/user-attachments/assets/81195077-8512-4bf6-b9dd-3a2f358cbd3a" width="400" height="380">
-<img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" width="400" height="300">
-<img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" width="400" height="380">
+<img src="https://github.com/user-attachments/assets/ece4c148-4b5a-4807-9507-c6df4e41f096" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/bce62bda-a55b-43ad-8d01-7c75860e820f" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/4da89d18-9702-4821-b557-d05b1c7498c2" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/90730853-a32d-4df3-b652-55eb2eca0545" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/ef5b0410-640f-4833-9de2-a72d8c1197af" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/230841a0-62b7-4cb4-8e5c-ea83295c44ea" width="400" height="380">
+<img src="https://github.com/user-attachments/assets/5bb33660-e890-41e8-a832-3a28352a2316"  width="400" height="380">
