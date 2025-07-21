@@ -161,3 +161,88 @@ Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan
 <img src="https://github.com/user-attachments/assets/2c358b91-0f50-4f47-be2c-1dbb25ca5517" width="400" height="300">
 <img src="https://github.com/user-attachments/assets/8fc6be5c-6a20-4682-8953-49ecf718c31b" width="400" height="380">
 
+
+# Sprint 2
+
+
+User Story'ler, product backlog içindeki görevler altında tanımlanmıştır. Her bir product backlog item'a tıklandığında story’lerin detayları görülebilmektedir.
+
+1. Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
+
+Sprint boyunca tamamlanması beklenen toplam puan 100 olarak belirlenmiştir. Proje boyunca tamamlanması gereken 300 puanlık backlog, üç sprinte bölünmüş olup, ilk sprintin 100 puanla başlaması kararlaştırılmıştır.
+
+2. Puan Tamamlama Mantığı:
+
+Proje süresince tamamlanması gereken toplam 300 puanlık backlog, üç eşit sprint olarak planlanmıştır. Her sprint için 100 puanlık görev tamamlanması hedeflenmiştir. İlk sprint tamamlandıktan sonra, 2. sprintte de aynı şekilde 100 puanlık görev seçilerek sprint planlanmıştır. Bu puanlar, görevlerin tahmini zorluk ve zaman ihtiyaçlarına göre önceden belirlenmiştir.
+
+3. Sprint Notları:
+
+Sprintteki görevler, birinci sprintte tamamlanan temel yapının üzerine yeni mekaniklerin eklenmesini sağlayacak şekilde belirlenmiştir. Aynı zamanda oyuncu deneyimini geliştirecek yeni içeriklerin de eklenmesi hedeflenmiştir. Backlog öğeleri, sprint kapasitesini aşmayacak şekilde seçilmiş ve ekip üyelerine dengeli bir şekilde dağıtılmıştır.
+
+<img src="https://github.com/user-attachments/assets/c66f5dff-8ed2-4f05-8569-ceb5fe14bd6a" width="500" height="500">
+
+
+
+Pembe Item'lar: Hikayesel görevlerini temsil eder.
+
+Mor Item'lar: Kodlama ve Unity görevlerini temsil eder.
+
+Açık Yeşil Item'lar: Dİğer görevleri temsil eder.
+
+Koyu Yeşil Item'lar: Ses görevlerini temsil eder.
+
+Kırmızı Item'lar: Fix - hata ayıklama görevlerini temsil eder.
+
+Turuncu Item'lar:Tasarım görevlerini temsil eder.
+
+4. Daily Scrum
+   
+Daily Scrum toplantıları, yine Discord üzerinden gerçekleştirilmiştir. Her sabah yapılan kısa toplantılarda ekip üyeleri bir önceki gün ne yaptıklarını, o gün ne yapacaklarını ve varsa karşılaştıkları engelleri paylaşmışlardır. Ek olarak, gün içindeki gelişmeler ve iletişim, WhatsApp grubu üzerinden sürdürülmüş; bu günlük kayıtlar ve Scrum konuşmaları Imgur’da belgelenmiştir.
+
+## İlgili Linkler:
+- **Sprint 2 - Daily Scrum Chats**: [Imgur Linki](https://imgur.com/a/62YjJ5w)
+
+# Ürün Durumu: Ekran Görüntüleri
+
+5. Sprint Review:
+Ekip, sprint sürecinde tamamlanan çalışmaları değerlendirdi. Bu sprintte oyunun giriş kısmı büyük oranda tamamlandı. Haritaya mağara eklendi, koruluk ve kale kısmı detaylandırıldı. Ana karakterlerin evleri oluşturuldu ve harita genel düzenlemesi tamamlandı. Moonlight Blossom ve su sistemi gibi çevresel detaylar haritaya dahil edildi. Senaryo tamamlanarak gerekli düzenlemeler yapıldı ve hikâyeye uygun yeni mekanikler entegre edildi.
+Teknik tarafta, Lyra'nın ruh formuyla ana karakteri takip etmesini sağlayan mekanik, çicek toplama ve Lyra'yı taşıma mekanikleri oyuna başarıyla eklendi. Ayrıca NPC mekanikleri geliştirildi ve karakterler için animasyon ayarları yapıldı. NPC'ler ve düşman karakterler modellendi, karakterler için diyalog sesleri oluşturuldu. Oyunun atmosferini güçlendirmek adına ana müzik, savaş sahneleri için müzikler ve konuşma sırasında çalacak arka plan müzikleri başarıyla hazırlandı.
+Giriş bölümüne uygun şekilde 3D videolar hazırlandı ve dış ses ile giriş metni eklendi. Tüm bu çalışmalar ekip tarafından test edilerek değerlendirildi. Herhangi bir kritik hata ile karşılaşılmadı; ancak bulmaca sistemleri bu sprintte zaman yetersizliği sebebiyle tamamlanamadı ve bir sonraki sprintte ele alınmasına karar verildi.
+Sprint Review Katılımcıları:
+Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada, Burak Alver
+
+6. Sprint Retrospective:
+ Ekip, sprint sonunda genel ilerleyişi değerlendirdi. Yoğun ve çok yönlü görevlerin olduğu bu sprintte ekip üyeleri görevlerini zamanında tamamladı. Özellikle harita tasarımı, mekanik eklemeleri ve seslendirme çalışmaları ekip içinde uyumlu bir şekilde yürütüldü.
+Görsel, teknik ve anlatımsal olarak oyunun temel yapısı şekillenmeye başladı. Ancak bazı görevlerin tahmini sürelerinin aşılması, bulmaca sistemlerinin ertelenmesine sebep oldu. Bu durum, ilerleyen sprintlerde görev
+planlamasında daha dikkatli olunması gerektiğini ortaya koydu.
+Ek olarak, bazı varlıkların üretim sürecinin zaman aldığının fark edilmesi üzerine hazır kaynak kullanımı ve görev önceliklendirmesi üzerine yeni bir strateji geliştirilmesine karar verildi. Takım içi iletişim düzenli şekilde sürdürüldü ve yapılan değerlendirmelerde herkesin katkısı olumlu yönde değerlendirildi.
+
+
+Ekip Üyeleri ve Görev Dağılımı:
+
+Ses: Burak
+
+Harita Tasarımı ve UI: Tofig
+
+Modelleme: Defne
+
+Kodlama: Şebnem
+
+Senaryo: Ekip olarak devam etmekte, düzenleme süreci devam ediyor.
+
+7) Sprint Board Updates
+    
+   [Oyun Backlog](https://miro.com/welcomeonboard/QWxuWXY5a3RvQjNic21wc28rSS9DRHZ0OHJMeXZxdStPWVJZS2k5KytJbXFPMnFqZHFYazFTbFc5VUNxZEVHTnRtNW1GNEpkdjRzcnArczNTNGF4VnFxMDZoZU9yK21IQkVEN2RsdnFSZ3IvZ2dvK2dYWVF0cldQZUdUbXgybUFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=892045917393)
+
+
+Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan değerlendirmelerin devam etmesi kararlaştırıldı.
+
+8) ScreenShots:
+
+<img src="https://github.com/user-attachments/assets/ece4c148-4b5a-4807-9507-c6df4e41f096" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/bce62bda-a55b-43ad-8d01-7c75860e820f" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/4da89d18-9702-4821-b557-d05b1c7498c2" width="600" height="350" >
+<img src="https://github.com/user-attachments/assets/90730853-a32d-4df3-b652-55eb2eca0545" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/ef5b0410-640f-4833-9de2-a72d8c1197af" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/230841a0-62b7-4cb4-8e5c-ea83295c44ea" width="400" height="380">
+<img src="https://github.com/user-attachments/assets/5bb33660-e890-41e8-a832-3a28352a2316"  width="400" height="380">
