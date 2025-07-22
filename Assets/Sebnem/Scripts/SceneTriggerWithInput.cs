@@ -8,19 +8,25 @@ public class SceneTriggerWithInput : MonoBehaviour
     public string sceneToLoad;         // Inspector'dan sahne adý atanacak
     public TMP_Text interactionText;   // "Press 'G'" yazacak TextMeshPro UI objesi
 
-    private ThirdPersonController tpc;
+    public ThirdPersonController tpc;
     private bool isPlayerInTrigger = false;
+
+    private void Awake()
+    {
+        //PlayerPrefs.DeleteAll();
+        tpc = GameObject.Find("PlayerArmature").GetComponent<ThirdPersonController>();
+    }
 
     void Start()
     {
+        Debug.Log(PlayerPrefs.GetInt("AAA"));
 
-        if (sceneToLoad == "SampleScene" && PlayerPrefs.GetInt("AAA") == 1)
+        if (PlayerPrefs.GetInt("AAA") == 2)
         {
             tpc._animator.SetBool("isCarry", true);
         }
-        else
-        {
-            PlayerPrefs.SetInt("AAA", 0);
+        else 
+        { 
             tpc._animator.SetBool("isCarry", false);
         }
 
@@ -41,8 +47,6 @@ public class SceneTriggerWithInput : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            tpc = other.gameObject.GetComponent<ThirdPersonController>();
-
             isPlayerInTrigger = true;
             if (interactionText != null)
             {
