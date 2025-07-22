@@ -6,6 +6,14 @@ public class carryCharacter : MonoBehaviour
     public TextMeshProUGUI yazi;
     public CarryControl controlCarry;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            yazi.text = "Press F";
+        }
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -18,6 +26,14 @@ public class carryCharacter : MonoBehaviour
                 controlCarry.Kucakla();
                 Destroy(yazi.gameObject);  
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            yazi.text = "";
         }
     }
 }
