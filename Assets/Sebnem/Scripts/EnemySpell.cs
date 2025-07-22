@@ -13,7 +13,7 @@ public class EnemySpell : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate((Vector3.forward + Vector3.left * 0.1f) * speed * Time.deltaTime);    
     }
 
     void OnTriggerEnter(Collider other)

@@ -13,30 +13,19 @@ public class EnemyAI : MonoBehaviour
     public GameObject spellPrefab;
     public Transform spellSpawnPoint;
 
-    private Transform player;
+    public Transform player;
     private NavMeshAgent agent;
     private Animator animator;
     private float lastAttackTime;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-
-        if (player == null)
-        {
-            Debug.LogError("Player bulunamadý! Sahnedeki player objesine 'Player' tag'i ver.");
-            enabled = false;
-            return;
-        }
-
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (player == null) return;
-
         bool canSeePlayer = IsPlayerInSight();
         float distance = Vector3.Distance(transform.position, player.position);
 
