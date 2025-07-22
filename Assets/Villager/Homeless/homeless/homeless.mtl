@@ -1,0 +1,74 @@
+# Exported from Fuse 1.3.0
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Beard_diffuse.png
+map_Ks homeless_Beard_specular.png
+bump homeless_Beard_normal.png
+map_Ns homeless_Beard_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Top_diffuse.png
+map_Ks homeless_Top_specular.png
+bump homeless_Top_normal.png
+map_Ns homeless_Top_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Bottom_diffuse.png
+map_Ks homeless_Bottom_specular.png
+bump homeless_Bottom_normal.png
+map_Ns homeless_Bottom_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Moustache_diffuse.png
+map_Ks homeless_Moustache_specular.png
+bump homeless_Moustache_normal.png
+map_Ns homeless_Moustache_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Shoes_diffuse.png
+map_Ks homeless_Shoes_specular.png
+bump homeless_Shoes_normal.png
+map_Ns homeless_Shoes_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd homeless_Body_diffuse.png
+map_Ks homeless_Body_specular.png
+bump homeless_Body_normal.png
+map_Ns homeless_Body_gloss.png
+
