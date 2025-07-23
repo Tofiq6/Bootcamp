@@ -1,63 +1,74 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PortalTeleporter : MonoBehaviour
 {
     public Transform targetPortal;
     public GameObject teleportEffectPrefab;
 
-    private bool isTeleporting = false;
-    private float cooldownTime = 3f; // Iþýnlandýktan sonra tekrar ýþýnlanmamasý için süre
+    private bool isPlayerInside = false;
+
+    // Her oyuncu için cooldown tutulur
+    private static Dictionary<GameObject, float> cooldownDict = new Dictionary<GameObject, float>();
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!isTeleporting && other.CompareTag("Player") && targetPortal != null)
+        if (!other.CompareTag("Player")) return;
+
+        if (isPlayerInside) return;
+
+        float currentTime = Time.time;
+
+        // Eðer bu oyuncu için cooldown varsa ve süresi geçmemiþse
+        if (cooldownDict.ContainsKey(other.gameObject) && currentTime < cooldownDict[other.gameObject])
         {
-            StartCoroutine(TryTeleport(other));
+            return;
+        }
+
+        if (targetPortal != null)
+        {
+            StartCoroutine(TeleportWithDelay(other));
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        // Oyuncu portaldan çýkýnca tekrar ýþýnlanabilir hale gelsin
         if (other.CompareTag("Player"))
         {
-            isTeleporting = false;
+            isPlayerInside = false;
         }
     }
 
-    IEnumerator TryTeleport(Collider player)
+    IEnumerator TeleportWithDelay(Collider player)
     {
-        isTeleporting = true;
+        isPlayerInside = true;
 
-        // Particle efekti oynat
+        // Efekt baþlat
         if (teleportEffectPrefab != null)
         {
-            Instantiate(teleportEffectPrefab, player.transform.position, Quaternion.identity);
+            GameObject effect = Instantiate(teleportEffectPrefab, player.transform.position, Quaternion.identity);
+            Destroy(effect, 1f); // Efekti 1 saniye sonra yok et
         }
 
-        // 1 saniye bekle
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1f); // Efekt süresi kadar bekle
 
         // Iþýnla
         player.transform.position = targetPortal.position;
 
-        // Diðer portalda 3 saniye ýþýnlanma engeli olsun
+        // Cooldown baþlat (3 saniye)
+        cooldownDict[player.gameObject] = Time.time + 3f;
+
+        // Diðer portal da oyuncunun içerde olduðunu bilsin
         PortalTeleporter otherPortal = targetPortal.GetComponent<PortalTeleporter>();
         if (otherPortal != null)
         {
-            otherPortal.StartCoroutine(otherPortal.Cooldown());
+            otherPortal.MarkPlayerInside();
         }
-
-        // Bu portal için de 3 saniye sonra tekrar ýþýnlanabilir hale gelecek
-        yield return new WaitForSeconds(cooldownTime);
-        isTeleporting = false;
     }
 
-    IEnumerator Cooldown()
+    public void MarkPlayerInside()
     {
-        isTeleporting = true;
-        yield return new WaitForSeconds(cooldownTime);
-        isTeleporting = false;
+        isPlayerInside = true;
     }
 }
