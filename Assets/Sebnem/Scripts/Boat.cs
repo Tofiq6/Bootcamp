@@ -11,11 +11,12 @@ public class Boat : MonoBehaviour
     private void Start()
     {
         particle.SetActive(false);
+        yat.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
         {
             yazi.text = "Press F";
         }
@@ -23,33 +24,32 @@ public class Boat : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
         {
             if (Input.GetKey(KeyCode.F))
             {
-                Animator animator = other.GetComponent<Animator>();
-                animator.SetBool("isCarry", false);
-                BirakBuKariyi();
+                other.GetComponent<Animator>().SetBool("isCarry", false);
+                Destroy(abla);
+                GameManager.Instance.isLyraHugged = false;
+                GameManager.Instance.isLyraInBoat = true;
+                GameManager.Instance.SaveGame();
+                LyraInTheBoat();
             }
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
         {
             yazi.text = "";
         }
     }
 
-    void BirakBuKariyi()
+    public void LyraInTheBoat()
     {
-        abla.transform.SetParent(null);
-        abla.transform.SetParent(gameObject.transform);
-        abla.transform.localPosition = Vector3.zero;
-        abla.GetComponent<Animator>().SetBool("isCarry", false);
         particle.SetActive(true);
-        Destroy(yazi.gameObject);
-        Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-
+        yat.SetActive(true);
+        yat.GetComponent<Animator>().SetBool("isCarry", false);
     }
 }

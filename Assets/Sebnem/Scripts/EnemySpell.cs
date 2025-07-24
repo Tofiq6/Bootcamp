@@ -21,8 +21,18 @@ public class EnemySpell : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player büyü ile vuruldu!");
-            // Buraya health sistemi varsa eklenir.
-            Destroy(gameObject);
+
+            
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+
+            
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage); 
+            }
+
+            
         }
     }
+
 }

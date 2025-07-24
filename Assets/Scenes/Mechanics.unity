@@ -1457,8 +1457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b011a547ff0d6f458abacfa44948f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowerCountText: {fileID: 1229067118}
-  totalFlowerCount: 10
+  isLyraHugged: 0
+  isLyraInBoat: 0
 --- !u!1 &747949834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,6 +3197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lyra: {fileID: 0}
   MoveSpeed: 2
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
@@ -3680,7 +3681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: SampleScene
   interactionText: {fileID: 1650831108}
-  tpc: {fileID: 0}
+  boat: {fileID: 0}
 --- !u!1 &1378097177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3872,7 +3873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9ebe6749267164fb6cc40943abac35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 728886646}
+  flowercount: {fileID: 0}
   pickupUI: {fileID: 1650831106}
 --- !u!1 &1405242606 stripped
 GameObject:
@@ -4504,8 +4505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1283146d3a62cff4487205fbca744a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  animator: {fileID: 0}
+  ayarVector: {x: 0, y: 0, z: 0}
   yazi: {fileID: 1650831108}
-  controlCarry: {fileID: 0}
 --- !u!65 &1590801754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5700,6 +5703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedMourne1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 692ddd989cffaa2408fbffeaa2a720bc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: 692ddd989cffaa2408fbffeaa2a720bc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6572,6 +6580,9 @@ MonoBehaviour:
     type: 3}
   spellSpawnPoint: {fileID: 1858576937}
   player: {fileID: 1261674613}
+  health: 100
+  healthSlider: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!95 &2047500702
 Animator:
   serializedVersion: 7
@@ -6898,7 +6909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9ebe6749267164fb6cc40943abac35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 728886646}
+  flowercount: {fileID: 0}
   pickupUI: {fileID: 1650831106}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
