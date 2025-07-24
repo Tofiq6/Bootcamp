@@ -1,0 +1,62 @@
+# Exported from Fuse 1.3.0
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd pianist_Bottom_diffuse.png
+map_Ks pianist_Bottom_specular.png
+bump pianist_Bottom_normal.png
+map_Ns pianist_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd pianist_Body_diffuse.png
+map_Ks pianist_Body_specular.png
+bump pianist_Body_normal.png
+map_Ns pianist_Body_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd pianist_Top_diffuse.png
+map_Ks pianist_Top_specular.png
+bump pianist_Top_normal.png
+map_Ns pianist_Top_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd pianist_Shoes_diffuse.png
+map_Ks pianist_Shoes_specular.png
+bump pianist_Shoes_normal.png
+map_Ns pianist_Shoes_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd pianist_Hair_diffuse.png
+map_Ks pianist_Hair_specular.png
+bump pianist_Hair_normal.png
+map_Ns pianist_Hair_gloss.png
+
