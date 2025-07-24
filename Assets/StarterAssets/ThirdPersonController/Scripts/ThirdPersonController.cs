@@ -14,6 +14,8 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        public GameObject Lyra;
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -97,6 +99,9 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDAttack;
+
+        public bool stop = false;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -151,20 +156,63 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+
+            if (GameManager.Instance.isLyraHugged)
+            {
+                _animator.SetBool("isCarry", true);
+                Lyra.SetActive(true);
+            }
+            else
+            {
+                _animator.SetBool("isCarry", false);
+                Lyra.SetActive(false);
+            }
         }
 
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
 
-            JumpAndGravity();
+            if (!stop)
+            {
+                JumpAndGravity();
+                Move();
+            }
             GroundedCheck();
-            Move();
+            AttackAndDefence();
         }
 
         private void LateUpdate()
         {
             CameraRotation();
+        }
+
+        void AttackAndDefence()
+        {
+            
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                StopBoolChanger();
+                _animator.SetTrigger("Attack");
+                Invoke("StopBoolChanger", 2f);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                StopBoolChanger();
+                _animator.SetBool("Defence", true);
+            }
+            else if (Input.GetKeyUp(KeyCode.Mouse1))
+            {
+                _animator.SetBool("Defence", false);
+                StopBoolChanger();
+            }
+        }
+
+        void StopBoolChanger()
+        {
+            stop = !stop;
         }
 
         private void AssignAnimationIDs()

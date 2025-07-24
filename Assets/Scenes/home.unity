@@ -41120,6 +41120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: SampleScene
   interactionText: {fileID: 610298370}
+  boat: {fileID: 0}
 --- !u!65 &726963845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46267,21 +46268,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1291353534}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &836395380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836395378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e16f0e19b3c14498b6338820ff1d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 1517707026}
-  animator: {fileID: 836395383}
-  ayarVector: {x: 0.25, y: 0, z: -0.2}
 --- !u!114 &836395381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46294,8 +46280,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1283146d3a62cff4487205fbca744a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 1517707026}
+  animator: {fileID: 836395383}
+  ayarVector: {x: 0.25, y: 0, z: -0.2}
   yazi: {fileID: 610298370}
-  controlCarry: {fileID: 836395380}
 --- !u!95 &836395383
 Animator:
   serializedVersion: 7
@@ -69869,10 +69857,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 836395380}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: afd7f77df69529e49be36c51a44e0f86,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 836395381}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: afd7f77df69529e49be36c51a44e0f86,
         type: 3}
@@ -72834,9 +72818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e16f0e19b3c14498b6338820ff1d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  animator: {fileID: 836395383}
-  ayarVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1375444287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72849,8 +72830,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1283146d3a62cff4487205fbca744a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  animator: {fileID: 0}
+  ayarVector: {x: 0, y: 0, z: 0}
   yazi: {fileID: 610298370}
-  controlCarry: {fileID: 1375444286}
 --- !u!4 &1379357395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4185614764287014, guid: bebfb14ad739a1c48959e3ba26cfb2a3,
@@ -80695,6 +80678,7 @@ Transform:
   - {fileID: 1411798590}
   - {fileID: 1976541897}
   - {fileID: 1412469442}
+  - {fileID: 1959318260}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 10.518, y: 270, z: 0.012}
 --- !u!114 &1517707028
@@ -80844,6 +80828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lyra: {fileID: 1959318259}
   MoveSpeed: 2
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
@@ -80876,6 +80861,7 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  _animator: {fileID: 0}
 --- !u!143 &1517707032
 CharacterController:
   m_ObjectHideFlags: 0
@@ -107807,6 +107793,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958772885}
   m_Mesh: {fileID: 4300000, guid: 60694673404b80d45920d4cb862f845a, type: 3}
+--- !u!1 &1959318259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959318260}
+  m_Layer: 8
+  m_Name: empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1959318260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959318259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1517707027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1960106616
 PrefabInstance:
   m_ObjectHideFlags: 0

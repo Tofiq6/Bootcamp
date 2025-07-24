@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FlowerPickup : MonoBehaviour
 {
-    public GameManager gameManager;
+    public FlowerCounter flowercount;
     public GameObject pickupUI;
 
     private bool isPlayerNear = false;
@@ -49,7 +49,7 @@ public class FlowerPickup : MonoBehaviour
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E))
         {
             pickupUI.SetActive(false);
-            gameManager.CollectFlower();
+            flowercount.CollectFlower();
             Destroy(gameObject);
         }
     }

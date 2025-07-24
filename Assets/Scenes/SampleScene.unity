@@ -6968,7 +6968,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -8481,7 +8481,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -12095,7 +12095,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -15073,11 +15073,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 107f10bb0296b224a8b2f3d1b86b853c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 312515878}
+      addedObject: {fileID: 312515879}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 107f10bb0296b224a8b2f3d1b86b853c,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 312515879}
+      addedObject: {fileID: 312515883}
   m_SourcePrefab: {fileID: 100100000, guid: 107f10bb0296b224a8b2f3d1b86b853c, type: 3}
 --- !u!1 &312515877 stripped
 GameObject:
@@ -15085,21 +15085,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 312515876}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &312515878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312515877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e16f0e19b3c14498b6338820ff1d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 926067666}
-  animator: {fileID: 312515879}
-  ayarVector: {x: 0.25, y: 0, z: -0.2}
 --- !u!95 &312515879
 Animator:
   serializedVersion: 7
@@ -15128,6 +15113,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 312515876}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &312515883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312515877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1283146d3a62cff4487205fbca744a81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 926067666}
+  animator: {fileID: 312515879}
+  ayarVector: {x: 0.25, y: 0, z: -0.2}
+  yazi: {fileID: 755129794}
 --- !u!1001 &315358961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30467,7 +30468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -41530,7 +41531,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -49411,6 +49412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lyra: {fileID: 312515877}
   MoveSpeed: 2
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
@@ -49879,7 +49881,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -58082,7 +58084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: home
   interactionText: {fileID: 618320904}
-  tpc: {fileID: 0}
+  boat: {fileID: 1664482008}
 --- !u!65 &1127836163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86216,7 +86218,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -87469,7 +87471,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -88491,7 +88493,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect
@@ -100152,8 +100154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b011a547ff0d6f458abacfa44948f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowerCountText: {fileID: 1471327495}
-  totalFlowerCount: 10
+  isLyraHugged: 0
+  isLyraInBoat: 0
 --- !u!1 &1735376659
 GameObject:
   m_ObjectHideFlags: 0
@@ -141701,7 +141703,7 @@ PrefabInstance:
         type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 1733422844}
+      objectReference: {fileID: 0}
     - target: {fileID: -2208460083293827173, guid: a6ddd322c4087e648a099eb04d32fa3b,
         type: 3}
       propertyPath: flowerCountRect

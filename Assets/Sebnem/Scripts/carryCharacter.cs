@@ -1,14 +1,16 @@
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
+
 public class carryCharacter : MonoBehaviour
 {
+    public GameObject character;
+    public Animator animator;
+    public Vector3 ayarVector;
     public TextMeshProUGUI yazi;
-    public CarryControl controlCarry;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraHugged)
         {
             yazi.text = "Press F";
         }
@@ -16,24 +18,31 @@ public class carryCharacter : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraHugged)
         {
-            yazi.text = "Press F";
-            if (Input.GetKeyDown(KeyCode.F) && yazi != null)
+            if (Input.GetKey(KeyCode.F))
             {
-                Animator animator = other.GetComponent<Animator>();
-                animator.SetBool("isCarry", true);
-                controlCarry.Kucakla();
-                Destroy(yazi.gameObject);  
+                other.GetComponent<Animator>().SetBool("isCarry", true);
+                Kucakla();
             }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraHugged)
         {
             yazi.text = "";
         }
+    }
+
+    public void Kucakla()
+    {
+        transform.position = character.transform.position + ayarVector;
+        transform.Rotate(0, 90, 0);
+        gameObject.transform.SetParent(character.transform);
+        animator.SetBool("isCarry", true);
+        GameManager.Instance.isLyraHugged = true;
+        GameManager.Instance.SaveGame();
     }
 }
