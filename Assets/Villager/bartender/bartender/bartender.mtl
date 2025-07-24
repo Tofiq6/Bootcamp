@@ -1,0 +1,50 @@
+# Exported from Fuse 1.3.0
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bartender_Shoes_diffuse.png
+map_Ks bartender_Shoes_specular.png
+bump bartender_Shoes_normal.png
+map_Ns bartender_Shoes_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bartender_Bottom_diffuse.png
+map_Ks bartender_Bottom_specular.png
+bump bartender_Bottom_normal.png
+map_Ns bartender_Bottom_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bartender_Top_diffuse.png
+map_Ks bartender_Top_specular.png
+bump bartender_Top_normal.png
+map_Ns bartender_Top_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bartender_Body_diffuse.png
+map_Ks bartender_Body_specular.png
+bump bartender_Body_normal.png
+map_Ns bartender_Body_gloss.png
+
