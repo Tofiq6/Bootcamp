@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // TextMesh Pro kullanýmý için gerekli
+using TMPro;
 using System.Collections;
 
 public class DynamicChaseTrigger : MonoBehaviour

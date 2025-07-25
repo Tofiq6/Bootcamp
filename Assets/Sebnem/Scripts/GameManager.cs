@@ -1,71 +1,92 @@
+using Unity.VisualScripting;
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
-using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI flowerCountText;
-    private CanvasGroup canvasGroup;
+    public static GameManager Instance;
+    public bool isLyraHugged;
+    public bool isLyraInBoat;
+    public bool haveKey = false;
 
-    private int flowerCount = 0;
-    public int totalFlowerCount = 10;
-
-    private void Start()
+    private void Awake()
     {
-        canvasGroup = flowerCountText.GetComponent<CanvasGroup>();
-        if (canvasGroup == null)
-            canvasGroup = flowerCountText.gameObject.AddComponent<CanvasGroup>();
+        LoadGame();
 
-        canvasGroup.alpha = 0f;
-        StartCoroutine(FadeInUI());
-        UpdateFlowerCountText();
-    }
-
-    public void CollectFlower()
-    {
-        flowerCount++;
-        UpdateFlowerCountText();
-
-        if (flowerCount >= totalFlowerCount)
+        if (Instance == null)
         {
-            StartCoroutine(FadeOutUI());
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Sahne geçiþlerinde yok olma
+        }
+        else
+        {
+            Destroy(gameObject); // Zaten varsa yenisini yok et
         }
     }
 
-    private void UpdateFlowerCountText()
+    public void SceneLoader(string sceneName)
     {
-        flowerCountText.text = flowerCount + "/" + totalFlowerCount;
+        SceneManager.LoadScene(sceneName);
     }
 
-    private IEnumerator FadeInUI()
+    public void SaveGame()
     {
-        float duration = 0.5f;
-        float t = 0f;
-
-        while (t < duration)
+        if (isLyraHugged) 
         {
-            t += Time.deltaTime;
-            canvasGroup.alpha = Mathf.Lerp(0f, 1f, t / duration);
-            yield return null;
+            PlayerPrefs.SetInt("Hug", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Hug", 0);
         }
 
-        canvasGroup.alpha = 1f;
-    }
-
-    private IEnumerator FadeOutUI()
-    {
-        float duration = 0.5f;
-        float t = 0f;
-
-        while (t < duration)
+        if (isLyraInBoat)
         {
-            t += Time.deltaTime;
-            canvasGroup.alpha = Mathf.Lerp(1f, 0f, t / duration);
-            yield return null;
+            PlayerPrefs.SetInt("Boat", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Boat", 0);
         }
 
-        canvasGroup.alpha = 0f;
-        flowerCountText.gameObject.SetActive(false);
+        if(haveKey) 
+        {
+            PlayerPrefs.SetInt("Key", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Key", 0);
+        }
     }
+
+    public void LoadGame()
+    {
+        if(PlayerPrefs.GetInt("Hug")== 1)
+        {
+            isLyraHugged=true;
+        }
+        else
+        {
+            isLyraHugged=false;
+        }
+
+        if (PlayerPrefs.GetInt("Boat") == 1)
+        {
+            isLyraInBoat = true;
+        }
+        else
+        {
+            isLyraInBoat=false;
+        }
+
+        if (PlayerPrefs.GetInt("Key") == 1)
+        {
+            haveKey = true;
+        }
+        else
+        {
+            haveKey = false;
+        }
+    }
+
 }
