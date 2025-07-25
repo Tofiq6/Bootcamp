@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public bool isLyraHugged;
     public bool isLyraInBoat;
+    public bool haveKey = false;
 
     private void Awake()
     {
@@ -47,6 +48,15 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Boat", 0);
         }
+
+        if(haveKey) 
+        {
+            PlayerPrefs.SetInt("Key", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Key", 0);
+        }
     }
 
     public void LoadGame()
@@ -67,6 +77,15 @@ public class GameManager : MonoBehaviour
         else
         {
             isLyraInBoat=false;
+        }
+
+        if (PlayerPrefs.GetInt("Key") == 1)
+        {
+            haveKey = true;
+        }
+        else
+        {
+            haveKey = false;
         }
     }
 

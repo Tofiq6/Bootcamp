@@ -5,8 +5,9 @@ public class Boat : MonoBehaviour
 {
     public TextMeshProUGUI yazi;
     public GameObject yat;
-    public GameObject abla;
+    public GameObject Lyra;
     public GameObject particle;
+    public GameObject objectToActivate;  
 
     private void Start()
     {
@@ -29,11 +30,11 @@ public class Boat : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 other.GetComponent<Animator>().SetBool("isCarry", false);
-                Destroy(abla);
-                GameManager.Instance.isLyraHugged = false;
-                GameManager.Instance.isLyraInBoat = true;
-                GameManager.Instance.SaveGame();
-                LyraInTheBoat();
+                Destroy(Lyra); // Lyra'yý yok et
+                GameManager.Instance.isLyraHugged = false; 
+                GameManager.Instance.isLyraInBoat = true;  
+                GameManager.Instance.SaveGame();           
+                LyraInTheBoat();                          
             }
         }
     }
@@ -46,10 +47,24 @@ public class Boat : MonoBehaviour
         }
     }
 
+    
     public void LyraInTheBoat()
     {
         particle.SetActive(true);
         yat.SetActive(true);
         yat.GetComponent<Animator>().SetBool("isCarry", false);
+
+     
+        AudioSource audioSource = yat.GetComponent<AudioSource>();
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
+
+        
+        if (GameManager.Instance.isLyraInBoat && objectToActivate != null)
+        {
+            objectToActivate.SetActive(true); 
+        }
     }
 }
