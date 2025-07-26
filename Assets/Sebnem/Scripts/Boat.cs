@@ -4,20 +4,21 @@ using UnityEngine;
 public class Boat : MonoBehaviour
 {
     public TextMeshProUGUI yazi;
-    public GameObject yat;
     public GameObject Lyra;
     public GameObject particle;
-    public GameObject objectToActivate;  
+    public GameObject objectToActivate1;
+    public GameObject objectToActivate2;
 
     private void Start()
     {
         particle.SetActive(false);
-        yat.SetActive(false);
+        objectToActivate1.SetActive(false);
+        objectToActivate2.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat && GameManager.Instance.isLyraHugged)
         {
             yazi.text = "Press F";
         }
@@ -25,7 +26,7 @@ public class Boat : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat && GameManager.Instance.isLyraHugged)
         {
             if (Input.GetKey(KeyCode.F))
             {
@@ -33,7 +34,8 @@ public class Boat : MonoBehaviour
                 Destroy(Lyra); // Lyra'yý yok et
                 GameManager.Instance.isLyraHugged = false; 
                 GameManager.Instance.isLyraInBoat = true;  
-                GameManager.Instance.SaveGame();           
+                GameManager.Instance.SaveGame();
+                yazi.text = "";
                 LyraInTheBoat();                          
             }
         }
@@ -41,7 +43,7 @@ public class Boat : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat)
+        if (other.gameObject.CompareTag("Player") && !GameManager.Instance.isLyraInBoat && GameManager.Instance.isLyraHugged)
         {
             yazi.text = "";
         }
@@ -51,20 +53,11 @@ public class Boat : MonoBehaviour
     public void LyraInTheBoat()
     {
         particle.SetActive(true);
-        yat.SetActive(true);
-        yat.GetComponent<Animator>().SetBool("isCarry", false);
-
-     
-        AudioSource audioSource = yat.GetComponent<AudioSource>();
-        if (audioSource != null)
+                
+        if (GameManager.Instance.isLyraInBoat && objectToActivate1 != null && objectToActivate2 != null)
         {
-            audioSource.Play();
-        }
-
-        
-        if (GameManager.Instance.isLyraInBoat && objectToActivate != null)
-        {
-            objectToActivate.SetActive(true); 
+            objectToActivate1.SetActive(true);
+            objectToActivate2.SetActive(true);
         }
     }
 }

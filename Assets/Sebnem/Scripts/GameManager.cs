@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public bool isLyraHugged;
     public bool isLyraInBoat;
     public bool haveKey = false;
+    public bool swordInHand = false;
 
     private void Awake()
     {
@@ -22,6 +23,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject); // Zaten varsa yenisini yok et
         }
+    }
+
+    private void Start()
+    {
+        PlayerPrefs.DeleteAll();
     }
 
     public void SceneLoader(string sceneName)
@@ -57,6 +63,15 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Key", 0);
         }
+
+        if (swordInHand)
+        {
+            PlayerPrefs.SetInt("Sword", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Sword", 0);
+        }
     }
 
     public void LoadGame()
@@ -86,6 +101,15 @@ public class GameManager : MonoBehaviour
         else
         {
             haveKey = false;
+        }
+
+        if (PlayerPrefs.GetInt("Sword") == 1)
+        {
+            swordInHand = true;
+        }
+        else
+        {
+            swordInHand = false;
         }
     }
 
