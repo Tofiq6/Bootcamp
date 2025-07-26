@@ -10,7 +10,7 @@ public class DynamicChaseTrigger : MonoBehaviour
     public float[] subtitleDelay; // Yazýlar arasýndaki bekleme süresi (saniye cinsinden)
     public AudioClip followAudio; // Takip esnasýnda çalacak ses dosyasý
     public TextMeshProUGUI subtitleText; // Ekrandaki alt yazý metni
-
+    public DynamicTask dynamicTask;
     private bool isTriggered = false; // Trigger tetiklendi mi?
     private int currentSubtitleIndex = 0; // Þu anda oynatýlan yazýnýn indeksi
 
@@ -18,6 +18,8 @@ public class DynamicChaseTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isTriggered) // Eðer oyuncu trigger alanýna girdiyse ve henüz tetiklenmediyse
         {
+            Debug.Log("CCCCCCCCCCCCCCC");
+            dynamicTask.StartTask("görev 1","görev 2");
             isTriggered = true; // Trigger tetiklendi
             follower.StartFollowing(); // Takip etmeye baþla
             StartCoroutine(FollowSequence()); // Takip süreci baþlasýn

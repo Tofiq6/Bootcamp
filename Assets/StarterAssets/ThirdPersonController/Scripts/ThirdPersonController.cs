@@ -235,12 +235,7 @@ namespace StarterAssets
             // update animator if using character
             if (_hasAnimator)
             {
-                _animator.SetBool(_animIDGrounded, Grounded);
-
-                if (_animator.GetBool("isCarry"))
-                {
-                    _animator.SetBool("CarryWalk", false);
-                }
+                _animator.SetBool(_animIDGrounded, Grounded);                
             }
         }
 
@@ -274,10 +269,18 @@ namespace StarterAssets
 
             // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
             // if there is no input, set the target speed to 0
-            if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+            if (_input.move == Vector2.zero)
+            {
+                targetSpeed = 0.0f;
 
-            // a reference to the players current horizontal velocity
-            float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
+                if (_animator.GetBool("isCarry"))
+                {
+                    _animator.SetBool("CarryWalk", false);
+                }
+            }
+
+                // a reference to the players current horizontal velocity
+                float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
 
             float speedOffset = 0.1f;
             float inputMagnitude = _input.analogMovement ? _input.move.magnitude : 1f;
