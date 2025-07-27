@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public bool isLyraInBoat;
     public bool haveKey = false;
     public bool swordInHand = false;
+    public bool isChestOpened = false;  
 
     private void Awake()
     {
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveGame()
     {
-        if (isLyraHugged) 
+        if (isLyraHugged)
         {
             PlayerPrefs.SetInt("Hug", 1);
         }
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("Boat", 0);
         }
 
-        if(haveKey) 
+        if (haveKey)
         {
             PlayerPrefs.SetInt("Key", 1);
         }
@@ -72,17 +73,27 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Sword", 0);
         }
+
+        
+        if (isChestOpened)
+        {
+            PlayerPrefs.SetInt("Chest", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Chest", 0);
+        }
     }
 
     public void LoadGame()
     {
-        if(PlayerPrefs.GetInt("Hug")== 1)
+        if (PlayerPrefs.GetInt("Hug") == 1)
         {
-            isLyraHugged=true;
+            isLyraHugged = true;
         }
         else
         {
-            isLyraHugged=false;
+            isLyraHugged = false;
         }
 
         if (PlayerPrefs.GetInt("Boat") == 1)
@@ -91,7 +102,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            isLyraInBoat=false;
+            isLyraInBoat = false;
         }
 
         if (PlayerPrefs.GetInt("Key") == 1)
@@ -111,6 +122,15 @@ public class GameManager : MonoBehaviour
         {
             swordInHand = false;
         }
-    }
 
+        
+        if (PlayerPrefs.GetInt("Chest") == 1)
+        {
+            isChestOpened = true;
+        }
+        else
+        {
+            isChestOpened = false;
+        }
+    }
 }

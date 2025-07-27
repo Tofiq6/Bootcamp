@@ -68236,6 +68236,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCam: {fileID: 811236180}
   interactionDistance: 20
+  layersToHit:
+    serializedVersion: 2
+    m_Bits: 1
   interactionUI: {fileID: 451825295}
   interactionText: {fileID: 451825297}
 --- !u!1001 &926345404
@@ -124226,9 +124229,7 @@ MonoBehaviour:
   followDuration: 10
   subtitles:
   - sadasdasd
-  subtitleDelay:
-  - 5
-  followAudio: {fileID: 8300000, guid: 30aaa5a428e917d4a8145c69d42bd659, type: 3}
+  subtitleAudios: []
   subtitleText: {fileID: 618320904}
   dynamicTask: {fileID: 589620180}
 --- !u!1001 &1559722762
@@ -135761,6 +135762,7 @@ MonoBehaviour:
   isLyraInBoat: 0
   haveKey: 0
   swordInHand: 0
+  isChestOpened: 0
 --- !u!1001 &1733767668
 PrefabInstance:
   m_ObjectHideFlags: 0

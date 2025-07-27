@@ -7,8 +7,7 @@ public class DynamicChaseTrigger : MonoBehaviour
     public Follower follower; // Takipçi karakteri
     public float followDuration = 10f; // Takip süresi (saniye cinsinden)
     public string[] subtitles; // Ekranda sýrasýyla gösterilecek yazýlar
-    public float[] subtitleDelay; // Yazýlar arasýndaki bekleme süresi (saniye cinsinden)
-    public AudioClip followAudio; // Takip esnasýnda çalacak ses dosyasý
+    public AudioClip[] subtitleAudios; // Her bir alt yazý için ses dosyasý
     public TextMeshProUGUI subtitleText; // Ekrandaki alt yazý metni
     public DynamicTask dynamicTask;
     private bool isTriggered = false; // Trigger tetiklendi mi?
@@ -18,21 +17,11 @@ public class DynamicChaseTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isTriggered) // Eðer oyuncu trigger alanýna girdiyse ve henüz tetiklenmediyse
         {
-            Debug.Log("CCCCCCCCCCCCCCC");
-            dynamicTask.StartTask("görev 1","görev 2");
+            dynamicTask.StartTask("görev 1", "görev 2");
             isTriggered = true; // Trigger tetiklendi
             follower.StartFollowing(); // Takip etmeye baþla
             StartCoroutine(FollowSequence()); // Takip süreci baþlasýn
-            PlayAudio(); // Ses dosyasýný çal
             ShowSubtitles(); // Alt yazýlarý göster
-        }
-    }
-
-    private void PlayAudio()
-    {
-        if (followAudio != null)
-        {
-            AudioSource.PlayClipAtPoint(followAudio, transform.position); // Ses dosyasýný çal
         }
     }
 
@@ -43,15 +32,34 @@ public class DynamicChaseTrigger : MonoBehaviour
 
     private IEnumerator DisplaySubtitlesCoroutine()
     {
-        while (currentSubtitleIndex < subtitles.Length)
+        int subtitleIndex = 0; // Alt yazýlar arasýnda geçiþ yapmak için
+        foreach (var audioClip in subtitleAudios) // Her ses dosyasý için
         {
-            subtitleText.text = subtitles[currentSubtitleIndex]; // Þu anki yazýyý göster
-            yield return new WaitForSeconds(subtitleDelay[currentSubtitleIndex]); // Yazý süresi kadar bekle
-            currentSubtitleIndex++; // Bir sonraki yazýya geç
+            int numOfSubtitles = subtitles.Length;
+            float durationPerSubtitle = audioClip.length / numOfSubtitles; // Sesin süresini alt yazýlara bölelim
+
+            // Bu ses dosyasýna ait alt yazýlarý sýrayla göster
+            while (subtitleIndex < numOfSubtitles)
+            {
+                subtitleText.text = subtitles[subtitleIndex]; // Alt yazýyý göster
+                PlaySubtitleAudio(audioClip); // Ses dosyasýný çal
+
+                yield return new WaitForSeconds(durationPerSubtitle); // Ses süresini alt yazýlara böldük
+
+                subtitleIndex++; // Bir sonraki alt yazýya geç
+            }
         }
 
         // Alt yazý bittiðinde texti temizle
         subtitleText.text = "";
+    }
+
+    private void PlaySubtitleAudio(AudioClip audioClip)
+    {
+        if (audioClip != null)
+        {
+            AudioSource.PlayClipAtPoint(audioClip, transform.position); // Ses dosyasýný çal
+        }
     }
 
     private IEnumerator FollowSequence()

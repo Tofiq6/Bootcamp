@@ -9,7 +9,8 @@ public class PlayerInteraction : MonoBehaviour
 {
 
     public Camera mainCam;  // Oyuncunun kamerasý
-    public float interactionDistance = 3f;  // Etkileþim mesafesi
+    public float interactionDistance = 20f;  // Etkileþim mesafesi
+    public LayerMask layersToHit;
 
     public GameObject interactionUI;
     public TextMeshProUGUI interactionText;
@@ -28,7 +29,7 @@ public class PlayerInteraction : MonoBehaviour
         bool hitSomething = false;
 
         // Eðer bir nesneye çarptýysak ve mesafe uygun ise
-        if (Physics.Raycast(ray, out hit, interactionDistance))
+        if (Physics.Raycast(ray, out hit, interactionDistance, layersToHit))
         {
             IInteractable interactable = hit.collider.GetComponent<IInteractable>();  // Çarpýlan nesnede IInteractable var mý?
 
