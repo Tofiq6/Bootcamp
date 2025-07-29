@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 77cc71e5d9b8ba643813860e7cf4b299
+timeCreated: 1719307373
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Scripts/ScaleController.cs
+  uploadId: 708259

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5927a6e33f31f7649992673def661779
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/Materials/Gray.mat
+  uploadId: 708259

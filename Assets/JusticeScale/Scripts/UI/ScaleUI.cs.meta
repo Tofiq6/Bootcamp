@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f638d3b30aee7c34286179635223e13c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Scripts/UI/ScaleUI.cs
+  uploadId: 708259

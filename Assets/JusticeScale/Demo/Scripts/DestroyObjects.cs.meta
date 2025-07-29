@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: aada9d88d1d9ad34bb4210ccaf7a0950
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/Scripts/DestroyObjects.cs
+  uploadId: 708259
