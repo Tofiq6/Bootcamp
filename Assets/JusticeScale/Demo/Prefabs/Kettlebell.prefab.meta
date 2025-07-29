@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8571d7280ec32d4b9b3c43cab95b11d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/Prefabs/Kettlebell.prefab
+  uploadId: 708259

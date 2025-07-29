@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c9deba8b75e3ee4f918313ed5c2c273
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/DemoScene.unity
+  uploadId: 708259
