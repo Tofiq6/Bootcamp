@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c34bba58851b59348b8ca838ceeac479
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/Materials/Default.mat
+  uploadId: 708259

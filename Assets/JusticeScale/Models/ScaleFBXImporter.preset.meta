@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80984703788350c4e885c99cb1032d15
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Models/ScaleFBXImporter.preset
+  uploadId: 708259

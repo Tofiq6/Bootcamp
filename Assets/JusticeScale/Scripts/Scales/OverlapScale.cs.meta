@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8b64e6584f3a49a5b30287827ab3f516
+timeCreated: 1731300775
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Scripts/Scales/OverlapScale.cs
+  uploadId: 708259

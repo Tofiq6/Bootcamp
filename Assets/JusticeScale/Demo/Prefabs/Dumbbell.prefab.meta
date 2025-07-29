@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 939eebe75fae8d341ad9ae0e2f782f18
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Demo/Prefabs/Dumbbell.prefab
+  uploadId: 708259

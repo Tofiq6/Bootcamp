@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 53f48e23a1652bd4faf9f9a25a191587
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Prefabs/Trigger Scale/SimpleTriggerScale.prefab
+  uploadId: 708259

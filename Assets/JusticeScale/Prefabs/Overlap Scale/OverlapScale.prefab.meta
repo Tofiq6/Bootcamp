@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cedb2313ddf44ec4b857743cd1ebc0c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299587
+  packageName: Interactive Justice Scale
+  packageVersion: 1.0
+  assetPath: Assets/JusticeScale/Prefabs/Overlap Scale/OverlapScale.prefab
+  uploadId: 708259
