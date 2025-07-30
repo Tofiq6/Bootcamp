@@ -1,0 +1,62 @@
+# Exported from Fuse 1.3.0
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd MBC3_Bottom_diffuse.png
+map_Ks MBC3_Bottom_specular.png
+bump MBC3_Bottom_normal.png
+map_Ns MBC3_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd MBC3_Body_diffuse.png
+map_Ks MBC3_Body_specular.png
+bump MBC3_Body_normal.png
+map_Ns MBC3_Body_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd MBC3_Top_diffuse.png
+map_Ks MBC3_Top_specular.png
+bump MBC3_Top_normal.png
+map_Ns MBC3_Top_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd MBC3_Shoes_diffuse.png
+map_Ks MBC3_Shoes_specular.png
+bump MBC3_Shoes_normal.png
+map_Ns MBC3_Shoes_gloss.png
+
+newmtl Glove
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd MBC3_Glove_diffuse.png
+map_Ks MBC3_Glove_specular.png
+bump MBC3_Glove_normal.png
+map_Ns MBC3_Glove_gloss.png
+
