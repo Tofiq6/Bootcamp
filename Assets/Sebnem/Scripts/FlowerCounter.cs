@@ -12,6 +12,7 @@ public class FlowerCounter : MonoBehaviour
 
     private void Start()
     {
+        DynamicTask.Instance.StartTask("PICKUP FLOWER", "Collect 10 moonlight blooms");
         canvasGroup = flowerCountText.GetComponent<CanvasGroup>();
         if (canvasGroup == null)
             canvasGroup = flowerCountText.gameObject.AddComponent<CanvasGroup>();
@@ -29,6 +30,7 @@ public class FlowerCounter : MonoBehaviour
         if (flowerCount >= totalFlowerCount)
         {
             StartCoroutine(FadeOutUI());
+            GameManager.Instance.isAllFlowersCollected = true;
         }
     }
 

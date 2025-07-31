@@ -4,7 +4,6 @@ using TMPro;
 public class ChestInteraction : MonoBehaviour
 {
     public TextMeshProUGUI pressFText; // UI'da "Press F" mesajýný gösterecek TextMeshPro objesi
-    private bool isPlayerNear = false;
 
     void Start()
     {
@@ -12,40 +11,35 @@ public class ChestInteraction : MonoBehaviour
         pressFText.gameObject.SetActive(false);
     }
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        // Eðer oyuncu chest'e yakýnsa ve chest açýlmamýþsa "F" tuþuna basýldýðýnda objeyi yok et ve kýlýcý oyuncuya ver
-        if (isPlayerNear && GameManager.Instance.isChestOpened == false)
+        if (other.CompareTag("Player") && GameManager.Instance.isChestOpened == true)
         {
             pressFText.gameObject.SetActive(true); // "Press F" mesajýný göster
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player") && GameManager.Instance.isChestOpened == true)
+        {
 
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Destroy(gameObject); // Chest objesini yok et
+                DynamicTask.Instance.StartTask("ENCHANTED WAR", "Find the enchantment and enchant the sword");
                 GameManager.Instance.swordInHand = true; // Kýlýcý oyuncuya ver
-                GameManager.Instance.isChestOpened = true; // Chest açýldý olarak iþaretle
                 GameManager.Instance.SaveGame(); // Oyun durumu kaydedilsin
             }
         }
-        else
-        {
-            pressFText.gameObject.SetActive(false); // "Press F" mesajýný gizle
-        }
-    }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerNear = true; // Oyuncu chest'e yaklaþtý
-        }
     }
 
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerNear = false; // Oyuncu chest'ten uzaklaþtý
+            pressFText.gameObject.SetActive(false); // "Press F" mesajýný gizle
         }
     }
 }

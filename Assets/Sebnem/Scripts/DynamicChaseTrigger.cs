@@ -9,20 +9,24 @@ public class DynamicChaseTrigger : MonoBehaviour
     public string[] subtitles; // Ekranda sýrasýyla gösterilecek yazýlar
     public AudioClip[] subtitleAudios; // Her bir alt yazý için ses dosyasý
     public TextMeshProUGUI subtitleText; // Ekrandaki alt yazý metni
-    public DynamicTask dynamicTask;
     private bool isTriggered = false; // Trigger tetiklendi mi?
+    public bool Elandor = false;
     private int currentSubtitleIndex = 0; // Þu anda oynatýlan yazýnýn indeksi
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isTriggered) // Eðer oyuncu trigger alanýna girdiyse ve henüz tetiklenmediyse
         {
-            dynamicTask.StartTask("görev 1", "görev 2");
-            isTriggered = true; // Trigger tetiklendi
-            follower.StartFollowing(); // Takip etmeye baþla
-            StartCoroutine(FollowSequence()); // Takip süreci baþlasýn
-            ShowSubtitles(); // Alt yazýlarý göster
+            FollowAndTalk();
         }
+    }
+
+    public void FollowAndTalk()
+    {
+        isTriggered = true; // Trigger tetiklendi
+        follower.StartFollowing(); // Takip etmeye baþla
+        StartCoroutine(FollowSequence()); // Takip süreci baþlasýn
+        ShowSubtitles(); // Alt yazýlarý göster
     }
 
     private void ShowSubtitles()
@@ -67,5 +71,10 @@ public class DynamicChaseTrigger : MonoBehaviour
         // Takip süresi boyunca oyuncuyu takip et
         yield return new WaitForSeconds(followDuration);
         follower.StopFollowing(); // Takip süresi bittiðinde takip durur
+
+        if (Elandor)
+        {
+            DynamicTask.Instance.StartTask("MIGHTY WISE", "Talk to Elandor");
+        }
     }
 }

@@ -41,24 +41,14 @@ public class MapItem : MonoBehaviour
     private void UpdateMapCount()
     {
         collectedMaps++; // Toplanan harita sayýsýný arttýr
-        if (mapCountText != null)
+        if (mapCountText != null && collectedMaps != 3)
         {
             mapCountText.text = collectedMaps + "/" + totalMaps; // 0/3 gibi
         }
-
-        // Image'ý aktif et ve 3 saniye sonra kaybolmasýný saðla
-        if (imageToActivate != null)
+        else if (collectedMaps >= 3)
         {
             imageToActivate.SetActive(true);
-            StartCoroutine(HideImageAfterDelay(3f)); // 3 saniye sonra kaybolacak
         }
-    }
-
-    // 3 saniye sonra image'ý devre dýþý býrakacak coroutine
-    private IEnumerator HideImageAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        imageToActivate.SetActive(false);
     }
 
     // Objeye inip kalkma animasyonu eklemek için
