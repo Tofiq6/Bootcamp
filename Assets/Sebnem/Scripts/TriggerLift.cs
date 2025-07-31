@@ -7,11 +7,14 @@ public class TriggerLift : MonoBehaviour
     public float targetY = 5f;          // Hedef Y pozisyonu
     public float liftSpeed = 1f;        // Yavaþça yükselme hýzý
     public AudioClip liftSound;         // Yükselme sýrasýnda çalacak ses
+    public bool isLifted = false;
+    public bool delay = false;
+    public float delayTime = 3f;
 
     private void OnTriggerEnter(Collider other)
     {
         // Eðer player trigger'a girdiðinde
-        if (other.CompareTag("Player")) // Player tag'ine sahip olmalý
+        if (other.CompareTag("Player") && !isLifted) // Player tag'ine sahip olmalý
         {
             // Ses kaydýný çal
             if (liftSound != null)
@@ -22,14 +25,19 @@ public class TriggerLift : MonoBehaviour
             // Coroutine ile objeleri kaldýr
             foreach (GameObject obj in objectsToLift)
             {
-                StartCoroutine(LiftObject(obj));
+                StartCoroutine(LiftObject(obj));                
             }
         }
     }
 
     
-    private IEnumerator LiftObject(GameObject obj)
+    public IEnumerator LiftObject(GameObject obj)
     {
+        if (delay)
+        {
+            yield return new WaitForSeconds(delayTime);
+        }
+
         Vector3 startPosition = obj.transform.position;
         float targetYPosition = targetY;
 
@@ -43,5 +51,6 @@ public class TriggerLift : MonoBehaviour
 
         
         obj.transform.position = new Vector3(obj.transform.position.x, targetYPosition, obj.transform.position.z);
+        isLifted = true;
     }
 }

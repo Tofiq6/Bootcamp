@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public bool haveKey = false;
     public bool swordInHand = false;
     public bool isChestOpened = false;  
+    public bool isAllFlowersCollected = false;
 
     private void Awake()
     {
@@ -83,6 +84,15 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Chest", 0);
         }
+
+        if (isAllFlowersCollected)
+        {
+            PlayerPrefs.SetInt("Flower", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Flower", 0);
+        }
     }
 
     public void LoadGame()
@@ -90,6 +100,7 @@ public class GameManager : MonoBehaviour
         if (PlayerPrefs.GetInt("Hug") == 1)
         {
             isLyraHugged = true;
+            DynamicTask.Instance.StartTask("PROTECTING THE LYRA", "Preserve Lyra's body in the moonlight cave");
         }
         else
         {
@@ -131,6 +142,15 @@ public class GameManager : MonoBehaviour
         else
         {
             isChestOpened = false;
+        }
+
+        if (PlayerPrefs.GetInt("Flower") == 1)
+        {
+            isAllFlowersCollected = true;
+        }
+        else
+        {
+            isAllFlowersCollected = false;
         }
     }
 }

@@ -4,11 +4,15 @@ using System.Collections;
 
 public class NPCConversation : MonoBehaviour, IInteractable
 {
-
     public Animator animator; // NPC animasyonlarý
     public AudioSource audioSource; // Sesleri çalmak için AudioSource
     public TextMeshProUGUI subtitleText; // Altyazý metni (TextMesh Pro kullanarak)
     public TextMeshProUGUI actionPromptText; // "T tuþuna bas" mesajý (TextMesh Pro kullanarak)
+    public DynamicChaseTrigger trigger;
+    public bool Bilge = false;
+    public bool Kaptan = false;
+    public bool Amara = false;
+    public bool Fiona = false;
 
     [System.Serializable]
     public class DialogueElement
@@ -22,6 +26,14 @@ public class NPCConversation : MonoBehaviour, IInteractable
     public DialogueElement[] dialogues; // Tüm konuþma verileri
 
     private int currentIndex = 0; // Þu anki konuþma indexi
+
+    void Start()
+    {
+        if (trigger != null)
+        {
+            trigger.gameObject.SetActive(false);
+        }
+    }
 
     public string GetDescription()
     {
@@ -67,6 +79,30 @@ public class NPCConversation : MonoBehaviour, IInteractable
 
             // Konuþma animasyonunu durdur
             animator.SetBool("isTalking", false);
+
+            if (Bilge)
+            {
+                DynamicTask.Instance.StartTask("TAVERN DIARIES", "Find the captain in the tavern");
+            }
+
+            if (Amara)
+            {
+                DynamicTask.Instance.StartTask("DARK DUNGEON", "go to the dungeon");
+                // text.text = "Efsun elde edildi";
+                // yield return new WaitForSeconds(5f);
+                // text.text = "";
+                DynamicTask.Instance.dynamicChase.FollowAndTalk();
+            }
+
+            if (Kaptan)
+            {
+                DynamicTask.Instance.StartTask("LOST SWORD", "Find the map pieces in the castle");
+            }
+
+            if (Fiona && trigger != null) 
+            {
+                trigger.gameObject.SetActive(true);
+            }
 
             // Bir sonraki konuþmayý baþlatmadan önce kýsa bir duraklama
             yield return new WaitForSeconds(1f);
