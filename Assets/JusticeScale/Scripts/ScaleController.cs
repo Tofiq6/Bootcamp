@@ -47,6 +47,7 @@ namespace JusticeScale.Scripts
         {
             var targetWeightDifference = leftScale.TotalWeight - rightScale.TotalWeight;
             WeightDifference = targetWeightDifference;
+
             weightResultSmoothed = Mathf.Lerp(weightResultSmoothed, targetWeightDifference, balanceSmoothTime);
 
             BalanceNormalized = Mathf.InverseLerp(-maxWeightDifference, maxWeightDifference, weightResultSmoothed);
