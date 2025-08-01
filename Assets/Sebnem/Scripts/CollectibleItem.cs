@@ -1,24 +1,24 @@
 using UnityEngine;
-using TMPro;  
+using TMPro;
 
 public class CollectibleItem : MonoBehaviour
 {
-    public TextMeshProUGUI interactText;             
-    public float interactRange = 3f;       
-    public AudioClip collectSound;         
+    public TextMeshProUGUI interactText;
+    public float interactRange = 3f;
+    public AudioClip collectSound;
+    public AudioSource audioSource; // Eklenen: Ses için AudioSource
 
     private void Update()
     {
-        
-        if (Vector3.Distance(transform.position, Camera.main.transform.position) <= interactRange)
+        float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
+
+        if (distance <= interactRange)
         {
-            
             if (interactText != null)
             {
                 interactText.text = "Press E to Collect";
             }
 
-            
             if (Input.GetKeyDown(KeyCode.E))
             {
                 CollectItem();
@@ -26,7 +26,6 @@ public class CollectibleItem : MonoBehaviour
         }
         else
         {
-            
             if (interactText != null)
             {
                 interactText.text = "";
@@ -34,19 +33,18 @@ public class CollectibleItem : MonoBehaviour
         }
     }
 
-   
     private void CollectItem()
     {
-        GameManager.Instance.haveKey = true; 
+        GameManager.Instance.haveKey = true;
         GameManager.Instance.SaveGame();
-        Debug.Log("Item Collected!"); 
+        Debug.Log("Item Collected!");
 
-        // Ses çal
-        if (collectSound != null)
+        // Ses çal — artýk sahnedeki AudioSource kullanýlýyor
+        if (collectSound != null && audioSource != null)
         {
-            AudioSource.PlayClipAtPoint(collectSound, transform.position); 
+            audioSource.PlayOneShot(collectSound);
         }
 
-        Destroy(gameObject); 
+        Destroy(gameObject);
     }
 }

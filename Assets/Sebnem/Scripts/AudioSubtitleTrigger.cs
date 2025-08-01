@@ -40,11 +40,14 @@ public class AudioSubtitleTrigger : MonoBehaviour
         }
 
         subtitleTextUI.text = "";
-        vfxObject.SetActive(true);
 
+        // VFX ve finalGameObject ayný anda aktif olsun
+        vfxObject.SetActive(true);
+        finalGameObject.SetActive(true);
+
+        // 2 saniye sonra sadece VFX kapanacak
         yield return new WaitForSeconds(2f);
         vfxObject.SetActive(false);
-
-        finalGameObject.SetActive(true);
     }
+
 }
