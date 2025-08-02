@@ -300,7 +300,7 @@ Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı denge
 Senaryo, ses, modelleme ve yazılım gibi farklı alanlarda yapılan çalışmaların senkronizasyonu başarılı şekilde sağlandı. Önceki sprintlere göre daha hızlı geri bildirim alındı ve bu sayede kalite kontrol süreci iyileştirildi. Tüm üyeler, final ürüne ulaşmaktan ve ekip çalışmasının verimliliğinden memnun kaldı.
 Güncel Ekip Üyeleri ve Görev Dağılımı:
 -   Kodlama: Şebnem
--  	Modelleme ve Animasyon: Defne
+-  	Modelleme, Animasyon ve Ses: Defne
 -  	Harita Tasarımı ve UI: Tofig
 -  	Senaryo ve Genel Kurgu: Tüm ekip katkı sağlamıştır.
 
