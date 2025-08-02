@@ -282,15 +282,15 @@ Daha fazla görsel için: Oyun İçi Görseller
 
 # Sprint Review:
 Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
-- ** 	4 yeni karakter tasarlandı.
-- ** 	4 adet harita sahnesi başarıyla tamamlandı.
-- ** 	NPC'ler ve ana karakterler için seslendirmeler yapıldı ve oyuna entegre edildi.
-- ** 	Farklı modellemeler üretildi ve sahnelere yerleştirildi.
-- ** 	Oyun atmosferine uygun ses efektleri bulundu ve eklendi.
-- ** 	Senaryo baştan sona yeniden yazıldı, yeni bulmacalar ve mekanikler oyuna dahil edildi.
-- ** 	Oyunun sonu için kısa bir 3D sinematik video oluşturuldu.
-- ** 	Karakter animasyonları, geçiş sahneleri ve müzik entegrasyonu tamamlandı.
-- ** 	Final testleri gerçekleştirildi; oyunda kritik bir hata ile karşılaşılmadı.
+-  	4 yeni karakter tasarlandı.
+-  	4 adet harita sahnesi başarıyla tamamlandı.
+-  	NPC'ler ve ana karakterler için seslendirmeler yapıldı ve oyuna entegre edildi.
+-  	Farklı modellemeler üretildi ve sahnelere yerleştirildi.
+-  	Oyun atmosferine uygun ses efektleri bulundu ve eklendi.
+-  	Senaryo baştan sona yeniden yazıldı, yeni bulmacalar ve mekanikler oyuna dahil edildi.
+-  	Oyunun sonu için kısa bir 3D sinematik video oluşturuldu.
+-  	Karakter animasyonları, geçiş sahneleri ve müzik entegrasyonu tamamlandı.
+-  	Final testleri gerçekleştirildi; oyunda kritik bir hata ile karşılaşılmadı.
 Bu sprintin sonunda, 300 puanlık toplam backlog başarıyla tamamlanmış oldu.
 Sprint Review Katılımcıları:
 Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada
@@ -299,10 +299,10 @@ Sprint Review Katılımcıları:
 Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı dengeli ve etkin bir biçimde yürütüldü. Burak’ın ekipten ayrılmasının ardından sorumluluklar yeniden düzenlendi ve proje aksamadan ilerledi.
 Senaryo, ses, modelleme ve yazılım gibi farklı alanlarda yapılan çalışmaların senkronizasyonu başarılı şekilde sağlandı. Önceki sprintlere göre daha hızlı geri bildirim alındı ve bu sayede kalite kontrol süreci iyileştirildi. Tüm üyeler, final ürüne ulaşmaktan ve ekip çalışmasının verimliliğinden memnun kaldı.
 Güncel Ekip Üyeleri ve Görev Dağılımı:
-- **  Kodlama: Şebnem
-- ** 	Modelleme ve Animasyon: Defne
-- ** 	Harita Tasarımı ve UI: Tofig
-- ** 	Senaryo ve Genel Kurgu: Tüm ekip katkı sağlamıştır.
+-   Kodlama: Şebnem
+-  	Modelleme ve Animasyon: Defne
+-  	Harita Tasarımı ve UI: Tofig
+-  	Senaryo ve Genel Kurgu: Tüm ekip katkı sağlamıştır.
 
 ## Jüri Notları: 
 Projede kullanılan tüm 3D modeller tarafımızdan tasarlanmış olup, Meshy AI ve ChatGPT desteğiyle geliştirilmiştir. Ana karakterler ve NPC’lerin modellemeleri Fuse programı ile yapılmış, animasyonları ise Mixamo üzerinden entegre edilmiştir. Kısa tanıtım videoları Kling AI ile hazırlanmıştır. Seslendirmeler ElevenLabs ile gerçekleştirilmiş, içerik oluşturma sürecinde ChatGPT'den destek alınmıştır. Ses efektleri Pixabay üzerinden, müzikler ise Suno AI aracılığıyla projeye dahil edilmiştir. 
