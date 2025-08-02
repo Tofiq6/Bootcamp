@@ -246,3 +246,61 @@ Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan
 <img src="https://github.com/user-attachments/assets/ef5b0410-640f-4833-9de2-a72d8c1197af" width="600" height="350">
 <img src="https://github.com/user-attachments/assets/230841a0-62b7-4cb4-8e5c-ea83295c44ea" width="400" height="380">
 <img src="https://github.com/user-attachments/assets/5bb33660-e890-41e8-a832-3a28352a2316"  width="400" height="380">
+
+# Sprint 3
+______________
+Sprint Notları:
+User Story'ler, product backlog içinde tanımlanmış; her bir backlog item’a tıklandığında detaylı bilgiye ulaşılabilecek şekilde yapılandırılmıştır.
+______________
+Sprint İçinde Tamamlanması Tahmin Edilen Puan:
+100 Puan
+______________
+Puan Tamamlama Mantığı:
+Proje boyunca toplam 300 puanlık backlog oluşturulmuş ve bu puanlar 3 eşit sprint’e bölünmüştür. Üçüncü sprintte de önceki sprintlerde olduğu gibi 100 puanlık görev hedeflenmiş ve bu doğrultuda görev planlaması yapılmıştır.
+______________
+# Backlog Düzeni ve Story Seçimleri:
+3.	sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
+Miro Board Renk Kodlaması:
+•	Pembe Item'lar: Hikayesel görevleri temsil eder.
+•	Mor Item'lar: Kodlama ve Unity görevlerini temsil eder.
+•	Açık Yeşil Item'lar: Diğer görevleri temsil eder.
+•	Koyu Yeşil Item'lar: Ses görevlerini temsil eder.
+•	Kırmızı Item'lar: Fix – hata ayıklama görevlerini temsil eder.
+•	Turuncu Item'lar: Tasarım görevlerini temsil eder.
+______________
+# Daily Scrum:
+Daily Scrum toplantıları Discord üzerinden yapılmaya devam edilmiştir. Ekip üyeleri, gelişmeleri günlük olarak paylaşmış; karşılaşılan sorunlar anlık müdahalelerle çözülmüştür. WhatsApp üzerinden yürütülen günlük iletişim ve raporlar, Imgur platformunda arşivlenmiştir.
+İlgili Link:
+Sprint 3 - Daily Scrum Chats: Imgur Linki
+______________
+# Sprint Board Update:
+Sprint board düzenli şekilde güncellenmiş, görevlerin durumu “To Do”, “In Progress” ve “Done” sütunlarında izlenmiştir. Her görev için sorumlu kişi ve ilgili renk kodlaması net şekilde belirtilmiştir.
+______________
+# Ürün Durumu: Ekran Görüntüleri
+Sprint sonunda geliştirilen bölümler, sahneler ve mekanikler ekran görüntüleriyle belgelenmiştir. Oyun, girişten sona kadar bütünsel ve oynanabilir bir yapıya kavuşmuştur.
+Daha fazla görsel için: Oyun İçi Görseller
+______________
+# Sprint Review:
+Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
+•	4 yeni karakter tasarlandı.
+•	4 adet harita sahnesi başarıyla tamamlandı.
+•	NPC'ler ve ana karakterler için seslendirmeler yapıldı ve oyuna entegre edildi.
+•	Farklı modellemeler üretildi ve sahnelere yerleştirildi.
+•	Oyun atmosferine uygun ses efektleri bulundu ve eklendi.
+•	Senaryo baştan sona yeniden yazıldı, yeni bulmacalar ve mekanikler oyuna dahil edildi.
+•	Oyunun sonu için kısa bir 3D sinematik video oluşturuldu.
+•	Karakter animasyonları, geçiş sahneleri ve müzik entegrasyonu tamamlandı.
+•	Final testleri gerçekleştirildi; oyunda kritik bir hata ile karşılaşılmadı.
+Bu sprintin sonunda, 300 puanlık toplam backlog başarıyla tamamlanmış oldu.
+Sprint Review Katılımcıları:
+Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada
+______________
+# Sprint Retrospective:
+Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı dengeli ve etkin bir biçimde yürütüldü. Burak’ın ekipten ayrılmasının ardından sorumluluklar yeniden düzenlendi ve proje aksamadan ilerledi.
+Senaryo, ses, modelleme ve yazılım gibi farklı alanlarda yapılan çalışmaların senkronizasyonu başarılı şekilde sağlandı. Önceki sprintlere göre daha hızlı geri bildirim alındı ve bu sayede kalite kontrol süreci iyileştirildi. Tüm üyeler, final ürüne ulaşmaktan ve ekip çalışmasının verimliliğinden memnun kaldı.
+Güncel Ekip Üyeleri ve Görev Dağılımı:
+•	Kodlama: Şebnem
+•	Modelleme ve Animasyon: Defne
+•	Harita Tasarımı ve UI: Tofig
+•	Senaryo ve Genel Kurgu: Tüm ekip katkı sağlamıştır.
+Jüri Notları: Projede kullanılan tüm 3D modeller tarafımızdan tasarlanmış olup, Meshy AI ve ChatGPT desteğiyle geliştirilmiştir. Ana karakterler ve NPC’lerin modellemeleri Fuse programı ile yapılmış, animasyonları ise Mixamo üzerinden entegre edilmiştir. Kısa tanıtım videoları Kling AI ile hazırlanmıştır. Seslendirmeler ElevenLabs ile gerçekleştirilmiş, içerik oluşturma sürecinde ChatGPT'den destek alınmıştır. Ses efektleri Pixabay üzerinden, müzikler ise Suno AI aracılığıyla projeye dahil edilmiştir.
