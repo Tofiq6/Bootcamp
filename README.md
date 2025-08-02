@@ -248,16 +248,16 @@ Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan
 <img src="https://github.com/user-attachments/assets/5bb33660-e890-41e8-a832-3a28352a2316"  width="400" height="380">
 
 # Sprint 3
-______________
+
 Sprint Notları:
 User Story'ler, product backlog içinde tanımlanmış; her bir backlog item’a tıklandığında detaylı bilgiye ulaşılabilecek şekilde yapılandırılmıştır.
-______________
+
 Sprint İçinde Tamamlanması Tahmin Edilen Puan:
 100 Puan
-______________
+
 Puan Tamamlama Mantığı:
 Proje boyunca toplam 300 puanlık backlog oluşturulmuş ve bu puanlar 3 eşit sprint’e bölünmüştür. Üçüncü sprintte de önceki sprintlerde olduğu gibi 100 puanlık görev hedeflenmiş ve bu doğrultuda görev planlaması yapılmıştır.
-______________
+
 # Backlog Düzeni ve Story Seçimleri:
 3.	sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
 Miro Board Renk Kodlaması:
@@ -267,19 +267,19 @@ Miro Board Renk Kodlaması:
 •	Koyu Yeşil Item'lar: Ses görevlerini temsil eder.
 •	Kırmızı Item'lar: Fix – hata ayıklama görevlerini temsil eder.
 •	Turuncu Item'lar: Tasarım görevlerini temsil eder.
-______________
+
 # Daily Scrum:
 Daily Scrum toplantıları Discord üzerinden yapılmaya devam edilmiştir. Ekip üyeleri, gelişmeleri günlük olarak paylaşmış; karşılaşılan sorunlar anlık müdahalelerle çözülmüştür. WhatsApp üzerinden yürütülen günlük iletişim ve raporlar, Imgur platformunda arşivlenmiştir.
 İlgili Link:
 Sprint 3 - Daily Scrum Chats: Imgur Linki
-______________
+
 # Sprint Board Update:
 Sprint board düzenli şekilde güncellenmiş, görevlerin durumu “To Do”, “In Progress” ve “Done” sütunlarında izlenmiştir. Her görev için sorumlu kişi ve ilgili renk kodlaması net şekilde belirtilmiştir.
-______________
+
 # Ürün Durumu: Ekran Görüntüleri
 Sprint sonunda geliştirilen bölümler, sahneler ve mekanikler ekran görüntüleriyle belgelenmiştir. Oyun, girişten sona kadar bütünsel ve oynanabilir bir yapıya kavuşmuştur.
 Daha fazla görsel için: Oyun İçi Görseller
-______________
+
 # Sprint Review:
 Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
 •	4 yeni karakter tasarlandı.
@@ -294,7 +294,7 @@ Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanı
 Bu sprintin sonunda, 300 puanlık toplam backlog başarıyla tamamlanmış oldu.
 Sprint Review Katılımcıları:
 Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada
-______________
+
 # Sprint Retrospective:
 Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı dengeli ve etkin bir biçimde yürütüldü. Burak’ın ekipten ayrılmasının ardından sorumluluklar yeniden düzenlendi ve proje aksamadan ilerledi.
 Senaryo, ses, modelleme ve yazılım gibi farklı alanlarda yapılan çalışmaların senkronizasyonu başarılı şekilde sağlandı. Önceki sprintlere göre daha hızlı geri bildirim alındı ve bu sayede kalite kontrol süreci iyileştirildi. Tüm üyeler, final ürüne ulaşmaktan ve ekip çalışmasının verimliliğinden memnun kaldı.
