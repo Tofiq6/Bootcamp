@@ -11,6 +11,7 @@ public class MapManager : MonoBehaviour
 
     public TextMeshProUGUI mapCountText;
     public Button buttonToActivate; // 3/3 olduðunda aktif olacak buton
+    public GameObject objectToActivate; //  3/3 olunca aktif edilecek ekstra obje
 
     private void Awake()
     {
@@ -21,6 +22,9 @@ public class MapManager : MonoBehaviour
 
         if (buttonToActivate != null)
             buttonToActivate.gameObject.SetActive(false); // Baþlangýçta kapalý
+
+        if (objectToActivate != null)
+            objectToActivate.SetActive(false); //  Baþlangýçta kapalý
     }
 
     public void CollectMap()
@@ -32,10 +36,16 @@ public class MapManager : MonoBehaviour
             mapCountText.text = collectedMaps + "/" + totalMaps;
         }
 
-        if (collectedMaps >= totalMaps && buttonToActivate != null)
+        if (collectedMaps >= totalMaps)
         {
-            mapCountText.text = totalMaps + "/" + totalMaps;
-            buttonToActivate.gameObject.SetActive(true); // Butonu aktif et
+            if (mapCountText != null)
+                mapCountText.text = totalMaps + "/" + totalMaps;
+
+            if (buttonToActivate != null)
+                buttonToActivate.gameObject.SetActive(true); // Butonu aktif et
+
+            if (objectToActivate != null)
+                objectToActivate.SetActive(true); //  Ekstra objeyi aktif et
         }
     }
 }

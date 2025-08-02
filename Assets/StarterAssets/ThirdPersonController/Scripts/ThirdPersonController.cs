@@ -158,7 +158,7 @@ namespace StarterAssets
             _fallTimeoutDelta = FallTimeout;
 
 
-            if (GameManager.Instance.isLyraHugged)
+            if (GameManager.Instance.isLyraHugged && Lyra != null)
             {
                 _animator.SetBool("isCarry", true);
                 Lyra.SetActive(true);

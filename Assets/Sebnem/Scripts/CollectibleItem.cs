@@ -6,10 +6,17 @@ public class CollectibleItem : MonoBehaviour
     public TextMeshProUGUI interactText;
     public float interactRange = 3f;
     public AudioClip collectSound;
-    public AudioSource audioSource; // Eklenen: Ses için AudioSource
+    public AudioSource audioSource;
+     
+
+    public float rotationSpeed = 100f;
 
     private void Update()
     {
+        // Obje döndürülüyor
+        transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime, Space.World);
+        transform.Rotate(Vector3.right * rotationSpeed * 0.5f * Time.deltaTime, Space.Self);
+
         float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
 
         if (distance <= interactRange)
@@ -39,12 +46,21 @@ public class CollectibleItem : MonoBehaviour
         GameManager.Instance.SaveGame();
         Debug.Log("Item Collected!");
 
-        // Ses çal — artýk sahnedeki AudioSource kullanýlýyor
+        // Ses çal
         if (collectSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(collectSound);
         }
 
-        Destroy(gameObject);
+        // Yazýyý temizle
+        if (interactText != null)
+        {
+            interactText.text = "";
+        }
+
+        //  Obje aktif ediliyor
+        
+
+        Destroy(gameObject, 0.1f);
     }
 }

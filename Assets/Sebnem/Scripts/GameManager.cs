@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public bool isChestOpened = false;  
     public bool isAllFlowersCollected = false;
     public bool isGameEnd = false;
+    public bool isTavernQuit = false;
 
     private void Awake()
     {
@@ -74,8 +75,7 @@ public class GameManager : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Sword", 0);
-        }
-
+        }  
         
         if (isChestOpened)
         {
@@ -93,6 +93,15 @@ public class GameManager : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Flower", 0);
+        }
+
+        if (isTavernQuit)
+        {
+            PlayerPrefs.SetInt("Taverna", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Taverna", 0);
         }
     }
 
@@ -152,6 +161,15 @@ public class GameManager : MonoBehaviour
         else
         {
             isAllFlowersCollected = false;
+        }
+
+        if (PlayerPrefs.GetInt("Taverna") == 1)
+        {
+            isTavernQuit = true;
+        }
+        else
+        {
+            isTavernQuit = false;
         }
     }
 }
