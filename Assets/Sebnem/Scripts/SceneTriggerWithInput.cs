@@ -8,9 +8,13 @@ public class SceneTriggerWithInput : MonoBehaviour
     public string sceneToLoad;
     public TMP_Text interactionText;
     public Boat boat;
-    public AudioSource audioSource;        // Eklenen: Ses efekti için AudioSource
-    public AudioClip dungeonEnterSound;    // Eklenen: Dungeon sahnesi sesi
+    public AudioSource audioSource;
+    public AudioClip dungeonEnterSound;
+    public LoadingScreenManager loadingScreenManager;
+    public GameObject Kael;
+    public GameObject TavernQuit;
 
+    public bool Taverna = false;
     private bool isPlayerInTrigger = false;
 
     void Start()
@@ -22,20 +26,35 @@ public class SceneTriggerWithInput : MonoBehaviour
         {
             boat.LyraInTheBoat();
         }
+
+        if (Taverna && GameManager.Instance.isTavernQuit)
+        {
+            Kael.transform.position = TavernQuit.transform.position;
+        }
     }
 
     void Update()
     {
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.G))
         {
+            if (Taverna)
+            {
+                GameManager.Instance.isTavernQuit = true;
+                GameManager.Instance.SaveGame();
+            }
+
             if (sceneToLoad == "DungeonScene")
             {
+                
                 StartCoroutine(PlaySoundThenLoadScene());
             }
             else
             {
-                GameManager.Instance.SceneLoader(sceneToLoad);
+
+                loadingScreenManager.LoadScene(sceneToLoad);
             }
+
+            
         }
     }
 
@@ -46,9 +65,9 @@ public class SceneTriggerWithInput : MonoBehaviour
             audioSource.PlayOneShot(dungeonEnterSound);
         }
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.5f);        
 
-        GameManager.Instance.SceneLoader(sceneToLoad);
+        loadingScreenManager.LoadScene(sceneToLoad);        
     }
 
     private void OnTriggerEnter(Collider other)

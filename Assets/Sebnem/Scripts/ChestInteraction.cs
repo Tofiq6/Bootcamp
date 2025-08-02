@@ -4,9 +4,20 @@ using TMPro;
 public class ChestInteraction : MonoBehaviour
 {
     public TextMeshProUGUI pressFText; // UI'da "Press F" mesajýný gösterecek TextMeshPro objesi
+    public GameObject sword;
+    public GameObject efsunger;
 
     void Start()
     {
+        if (GameManager.Instance.swordInHand)
+        {
+            sword.SetActive(true);
+            efsunger.SetActive(true);
+        }
+        else
+        {
+            efsunger.SetActive(false);
+        }
         // Baþlangýçta "Press F" mesajýný gizle
         pressFText.gameObject.SetActive(false);
     }
@@ -29,6 +40,8 @@ public class ChestInteraction : MonoBehaviour
                 Destroy(gameObject); // Chest objesini yok et
                 DynamicTask.Instance.StartTask("ENCHANTED WAR", "Find the enchantment and enchant the sword");
                 GameManager.Instance.swordInHand = true; // Kýlýcý oyuncuya ver
+                efsunger.SetActive(true);
+                sword.SetActive(true);
                 GameManager.Instance.SaveGame(); // Oyun durumu kaydedilsin
             }
         }
