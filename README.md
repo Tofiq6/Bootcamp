@@ -270,8 +270,9 @@ Miro Board Renk Kodlaması:
 
 # Daily Scrum:
 Daily Scrum toplantıları Discord üzerinden yapılmaya devam edilmiştir. Ekip üyeleri, gelişmeleri günlük olarak paylaşmış; karşılaşılan sorunlar anlık müdahalelerle çözülmüştür. WhatsApp üzerinden yürütülen günlük iletişim ve raporlar, Imgur platformunda arşivlenmiştir.
-İlgili Link:
-Sprint 3 - Daily Scrum Chats: Imgur Linki
+
+## İlgili Linkler:
+- **Sprint 3 - Daily Scrum Chats**: [Imgur Linki](https://imgur.com/a/daily-scrum-konu-malar-62YjJ5w)
 
 # Sprint Board Update:
 Sprint board düzenli şekilde güncellenmiş, görevlerin durumu “To Do”, “In Progress” ve “Done” sütunlarında izlenmiştir. Her görev için sorumlu kişi ve ilgili renk kodlaması net şekilde belirtilmiştir.
