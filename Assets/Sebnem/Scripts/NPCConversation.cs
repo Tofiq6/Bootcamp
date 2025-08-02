@@ -8,6 +8,7 @@ public class NPCConversation : MonoBehaviour, IInteractable
     public AudioSource audioSource; // Sesleri çalmak için AudioSource
     public TextMeshProUGUI subtitleText; // Altyazý metni (TextMesh Pro kullanarak)
     public TextMeshProUGUI actionPromptText; // "T tuþuna bas" mesajý (TextMesh Pro kullanarak)
+    public TextMeshProUGUI efsunText;
     public DynamicChaseTrigger trigger;
     public bool Bilge = false;
     public bool Kaptan = false;
@@ -93,9 +94,11 @@ public class NPCConversation : MonoBehaviour, IInteractable
         if (Amara)
         {
             DynamicTask.Instance.StartTask("DARK DUNGEON", "go to the dungeon");
-            // text.text = "Efsun elde edildi";
-            // yield return new WaitForSeconds(5f);
-            // text.text = "";
+            trigger.gameObject.SetActive(true);
+            trigger.FollowAndTalk();
+            efsunText.text = "Efsun elde edildi";
+            yield return new WaitForSeconds(5f);
+            efsunText.text = "";
             DynamicTask.Instance.dynamicChase.FollowAndTalk();
         }
 

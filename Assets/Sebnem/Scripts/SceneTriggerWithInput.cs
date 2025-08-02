@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections;
 
 public class SceneTriggerWithInput : MonoBehaviour
 {
-    public string sceneToLoad;         // Inspector'dan sahne adý atanacak
-    public TMP_Text interactionText;   // "Press 'G'" yazacak TextMeshPro UI objesi
+    public string sceneToLoad;
+    public TMP_Text interactionText;
     public Boat boat;
+    public AudioSource audioSource;        // Eklenen: Ses efekti için AudioSource
+    public AudioClip dungeonEnterSound;    // Eklenen: Dungeon sahnesi sesi
+
     private bool isPlayerInTrigger = false;
 
     void Start()
@@ -14,7 +18,7 @@ public class SceneTriggerWithInput : MonoBehaviour
         if (interactionText != null)
             interactionText.gameObject.SetActive(false);
 
-        if(boat != null && GameManager.Instance.isLyraInBoat)
+        if (boat != null && GameManager.Instance.isLyraInBoat)
         {
             boat.LyraInTheBoat();
         }
@@ -24,8 +28,27 @@ public class SceneTriggerWithInput : MonoBehaviour
     {
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.G))
         {
-            GameManager.Instance.SceneLoader(sceneToLoad);
+            if (sceneToLoad == "DungeonScene")
+            {
+                StartCoroutine(PlaySoundThenLoadScene());
+            }
+            else
+            {
+                GameManager.Instance.SceneLoader(sceneToLoad);
+            }
         }
+    }
+
+    private IEnumerator PlaySoundThenLoadScene()
+    {
+        if (audioSource != null && dungeonEnterSound != null)
+        {
+            audioSource.PlayOneShot(dungeonEnterSound);
+        }
+
+        yield return new WaitForSeconds(1.5f);
+
+        GameManager.Instance.SceneLoader(sceneToLoad);
     }
 
     private void OnTriggerEnter(Collider other)

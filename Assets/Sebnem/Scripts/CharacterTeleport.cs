@@ -6,10 +6,11 @@ public class PortalTeleporter : MonoBehaviour
 {
     public Transform targetPortal;
     public GameObject teleportEffectPrefab;
+    public AudioSource audioSource;              // Eklenen: Ses kaynaðý
+    public AudioClip teleportSound;              // Eklenen: Çalýnacak ses
 
     private bool isPlayerInside = false;
 
-    // Her oyuncu için cooldown tutulur
     private static Dictionary<GameObject, float> cooldownDict = new Dictionary<GameObject, float>();
 
     private void OnTriggerEnter(Collider other)
@@ -20,7 +21,6 @@ public class PortalTeleporter : MonoBehaviour
 
         float currentTime = Time.time;
 
-        // Eðer bu oyuncu için cooldown varsa ve süresi geçmemiþse
         if (cooldownDict.ContainsKey(other.gameObject) && currentTime < cooldownDict[other.gameObject])
         {
             return;
@@ -44,22 +44,25 @@ public class PortalTeleporter : MonoBehaviour
     {
         isPlayerInside = true;
 
+        // Ses efekti çal
+        if (audioSource != null && teleportSound != null)
+        {
+            audioSource.PlayOneShot(teleportSound);
+        }
+
         // Efekt baþlat
         if (teleportEffectPrefab != null)
         {
             GameObject effect = Instantiate(teleportEffectPrefab, player.transform.position, Quaternion.identity);
-            Destroy(effect, 1f); // Efekti 1 saniye sonra yok et
+            Destroy(effect, 1f);
         }
 
-        yield return new WaitForSeconds(1f); // Efekt süresi kadar bekle
+        yield return new WaitForSeconds(1f);
 
-        // Iþýnla
         player.transform.position = targetPortal.position;
 
-        // Cooldown baþlat (3 saniye)
         cooldownDict[player.gameObject] = Time.time + 3f;
 
-        // Diðer portal da oyuncunun içerde olduðunu bilsin
         PortalTeleporter otherPortal = targetPortal.GetComponent<PortalTeleporter>();
         if (otherPortal != null)
         {

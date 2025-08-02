@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AB_Scenes/home.unity
     guid: 0dde8e03695d1d0428fc4ade1ecb646a
+  - enabled: 1
+    path: Assets/AB_Scenes/Tavern.unity
+    guid: 1b8944d08ecdf0c4ba0e928e60b2fae2
+  - enabled: 1
+    path: Assets/AB_Scenes/DungeonScene.unity
+    guid: cc10df96022b19841ac18003dab61704
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

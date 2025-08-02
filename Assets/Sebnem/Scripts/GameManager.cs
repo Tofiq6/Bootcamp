@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public bool swordInHand = false;
     public bool isChestOpened = false;  
     public bool isAllFlowersCollected = false;
+    public bool isGameEnd = false;
 
     private void Awake()
     {

@@ -2369,6 +2369,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 5047870137529814985, guid: a15f82f54410a1547b942e216360b353,
+        type: 3}
+      propertyPath: blendRotation
+      value: 28.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5290114315992729020, guid: a15f82f54410a1547b942e216360b353,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2432,7 +2437,12 @@ PrefabInstance:
     - target: {fileID: 8644851163015476076, guid: a15f82f54410a1547b942e216360b353,
         type: 3}
       propertyPath: maxWeightDifference
-      value: 20
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644851163015476076, guid: a15f82f54410a1547b942e216360b353,
+        type: 3}
+      propertyPath: weightResultSmoothed
+      value: -0.99999946
       objectReference: {fileID: 0}
     - target: {fileID: 9089645199718570540, guid: a15f82f54410a1547b942e216360b353,
         type: 3}
@@ -3037,10 +3047,11 @@ MonoBehaviour:
   follower: {fileID: 358625775}
   followDuration: 10
   subtitleSequence:
-  - subtitle: 
-    audioClip: {fileID: 0}
+  - subtitle: Veltharionnn ,Solmaria  anemos En'duriel!
+    audioClip: {fileID: 8300000, guid: eef3ca7cfbb75b14ebd2743b61ab4400, type: 3}
   subtitleText: {fileID: 1569746850}
   audioSource: {fileID: 172543015}
+  portal: {fileID: 0}
   Elandor: 0
 --- !u!114 &172543014
 MonoBehaviour:
@@ -3062,6 +3073,7 @@ MonoBehaviour:
   isLifted: 0
   delay: 1
   delayTime: 2
+  fanus: 0
 --- !u!82 &172543015
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6225,6 +6237,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340502819}
+  - component: {fileID: 340502821}
+  - component: {fileID: 340502820}
   m_Layer: 0
   m_Name: RedStone
   m_TagString: Untagged
@@ -6250,6 +6264,43 @@ Transform:
   - {fileID: 1243417293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &340502820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340502818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.01, y: 0.01, z: 0.01}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &340502821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340502818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e141092969123147923fd396f81f4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  player: {fileID: 0}
+  Etext: {fileID: 0}
+  Estring: 
 --- !u!4 &342405705 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6728577463625951474, guid: e8677bde30e06f341b0e897430988f1c,
@@ -8103,6 +8154,7 @@ MonoBehaviour:
   audioSource: {fileID: 396589339}
   subtitleText: {fileID: 1128160910}
   actionPromptText: {fileID: 1196481021}
+  efsunText: {fileID: 0}
   trigger: {fileID: 406841659}
   Bilge: 0
   Kaptan: 0
@@ -8357,6 +8409,7 @@ MonoBehaviour:
   subtitleSequence: []
   subtitleText: {fileID: 0}
   audioSource: {fileID: 0}
+  portal: {fileID: 0}
   Elandor: 0
 --- !u!4 &406841660
 Transform:
@@ -10894,6 +10947,7 @@ MonoBehaviour:
   audioSource: {fileID: 545369259}
   subtitleText: {fileID: 1128160910}
   actionPromptText: {fileID: 1196481021}
+  efsunText: {fileID: 0}
   trigger: {fileID: 646373687}
   Bilge: 0
   Kaptan: 0
@@ -10901,12 +10955,13 @@ MonoBehaviour:
   Fiona: 1
   dialogues:
   - audio: {fileID: 8300000, guid: 21c9f7be2638e864498ca6b43165381a, type: 3}
-    subtitle: "SElam Yak\u0131\u015F\u0131kl\u0131 !! Topra\u011F\u0131n g\xFCc\xFCn\xFC
-      ta\u015F\u0131yan ilk ad\u0131m\u0131 atar,\L G\xF6ky\xFCz\xFCne cesurca y\xFCkselmek
-      isteyen sonra gelir.\L Orman\u0131n kral\u0131 ard\u0131ndan g\xFCc\xFCn\xFC
-      g\xF6sterir,\L Yaln\u0131z bir yolcu, \xF6zg\xFCrl\xFC\u011F\xFCn\xFC arayan
-      bir ba\u015Fka ad\u0131m atar.\L Sonunda huzurun zarif \xE7i\xE7e\u011Fi do\u011Far,
-      do\u011Fa ile uyum i\xE7inde."
+    subtitle: "Selam yak\u0131\u015F\u0131kl\u0131, Bu topraklarda her biri e\u015Fsiz
+      bir g\xFC\xE7 ve ama\xE7 ta\u015F\u0131yan be\u015F kahraman vard\u0131. Topra\u011F\u0131n
+      g\xFCc\xFCn\xFC ta\u015F\u0131yan ilk ad\u0131m\u0131 atar,\LG\xF6ky\xFCz\xFCne
+      cesurca y\xFCkselmek isteyen sonra gelir.\LOrman\u0131n kral\u0131 ard\u0131ndan
+      g\xFCc\xFCn\xFC g\xF6sterir,\LYaln\u0131z bir yolcu, \xF6zg\xFCrl\xFC\u011F\xFCn\xFC
+      arayan bir ba\u015Fka ad\u0131m atar.\LSonunda huzurun zarif \xE7i\xE7e\u011Fi
+      do\u011Far, do\u011Fa ile uyum i\xE7inde. "
     npcTalks: 1
     subtitleDuration: 33
 --- !u!65 &545369262
@@ -12921,6 +12976,7 @@ MonoBehaviour:
   subtitleSequence: []
   subtitleText: {fileID: 0}
   audioSource: {fileID: 0}
+  portal: {fileID: 0}
   Elandor: 0
 --- !u!1 &650240335
 GameObject:
@@ -25097,7 +25153,7 @@ Transform:
   m_GameObject: {fileID: 1254012283}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.371, y: 1.807, z: 5.09}
+  m_LocalPosition: {x: 0.371, y: 1.807, z: 3.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25242,11 +25298,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sequence:
-  - audioClip: {fileID: 8300000, guid: 1dc3afcb85dbc6e459dd537a7cfd5bbf, type: 3}
-    subtitleText: awdawdawdawd
-  subtitleTextUI: {fileID: 1551403872}
+  - audioClip: {fileID: 8300000, guid: 79b17cda35753a94fa71cc0e92409acf, type: 3}
+    subtitleText: " Geciktin, Kael. Sevgili e\u015Finin senin i\xE7in daha de\u011Ferli
+      oldu\u011Funu d\xFC\u015F\xFCn\xFCyordum... "
+  - audioClip: {fileID: 8300000, guid: fafa8847ac403f54ba0a1b84dff4662b, type: 3}
+    subtitleText: "E\u011Fer ona zarar verdiysen... seni yok ederim. "
+  - audioClip: {fileID: 8300000, guid: 73e1bdca2ffdda143976310dc62bb924, type: 3}
+    subtitleText: "A\u015Fk, ne b\xFCy\xFCk bir zay\u0131fl\u0131k."
+  - audioClip: {fileID: 8300000, guid: ea347029f273c0c4e945ae97c31d1578, type: 3}
+    subtitleText: "Ben zay\u0131f de\u011Filim. Lyra\u2019n\u0131n \u0131\u015F\u0131\u011F\u0131yla
+      seni karanl\u0131\u011Fa g\xF6mece\u011Fim."
+  subtitleTextUI: {fileID: 1128160910}
   audioSource: {fileID: 1254012287}
-  vfxObject: {fileID: 1403088194}
+  vfxObject: {fileID: 1496792694}
   finalGameObject: {fileID: 710723929}
 --- !u!1 &1257777614 stripped
 GameObject:
@@ -26904,6 +26968,7 @@ MonoBehaviour:
   isLifted: 0
   delay: 0
   delayTime: 3
+  fanus: 1
 --- !u!1001 &1343675421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28856,12 +28921,6 @@ PrefabInstance:
       addedObject: {fileID: 334756954}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86c8f25a3a567224b80b34097b69c24b, type: 3}
---- !u!1 &1403088194 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1675352358}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1405193301 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3591644860445115680, guid: a55e8b944b49e774899ecb13192840e5,
@@ -29495,24 +29554,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1445653214}
   audioSource: {fileID: 1445653215}
-  subtitleText: {fileID: 1551403872}
+  subtitleText: {fileID: 1128160910}
   actionPromptText: {fileID: 1196481021}
+  efsunText: {fileID: 0}
   trigger: {fileID: 172543013}
   Bilge: 0
   Kaptan: 0
   Amara: 0
   Fiona: 1
   dialogues:
-  - audio: {fileID: 8300000, guid: 41c72379006b92644af151f5a69ba599, type: 3}
-    subtitle: awdawd
-    npcTalks: 1
-    subtitleDuration: 3
-  - audio: {fileID: 8300000, guid: 41c72379006b92644af151f5a69ba599, type: 3}
-    subtitle: awdawd
+  - audio: {fileID: 8300000, guid: cefbde2a401563e4fa34659722af4752, type: 3}
+    subtitle: Sen de kimsin?
     npcTalks: 0
-    subtitleDuration: 3
-  - audio: {fileID: 8300000, guid: 41c72379006b92644af151f5a69ba599, type: 3}
-    subtitle: awdawd
+    subtitleDuration: 1
+  - audio: {fileID: 8300000, guid: e610082436d3d124c93be274f897fc1f, type: 3}
+    subtitle: "Anlatabilece\u011Fim bir \u015Fey kalmad\u0131, benden geriye ne kald\u0131,
+      bilmiyorum ama... Fiona ben. Bir zamanlar, g\xFC\xE7le donat\u0131lm\u0131\u015F
+      Eski B\xFCy\xFCn\xFCn son ta\u015F\u0131y\u0131c\u0131lar\u0131ndan biriydim."
+    npcTalks: 1
+    subtitleDuration: 19
+  - audio: {fileID: 8300000, guid: f77d2c6200b56e14f9c3c37826be11bc, type: 3}
+    subtitle: "Ta\u015F\u0131y\u0131c\u0131lar m\u0131? Lyra d\u0131\u015F\u0131nda
+      ba\u015Fkalar\u0131 da m\u0131 vard\u0131?"
+    npcTalks: 0
+    subtitleDuration: 5
+  - audio: {fileID: 8300000, guid: e15e56ea8213fd3419eb0e801a16152b, type: 3}
+    subtitle: "Lyra ve ben d\u0131\u015F\u0131nda kimse kalmam\u0131\u015Ft\u0131...
+      Ta ki g\xFC\xE7lerim \xE7al\u0131nana kadar."
+    npcTalks: 1
+    subtitleDuration: 11
+  - audio: {fileID: 8300000, guid: 5ad0e973fcd54cb428e90f1247cc3a60, type: 3}
+    subtitle: "Onu buldu\u011Fumda, g\xF6zlerinden siyah kanlar s\xFCz\xFCl\xFCyordu.
+      Sonra beni buraya y\xF6nlendirdi."
+    npcTalks: 0
+    subtitleDuration: 6
+  - audio: {fileID: 8300000, guid: 74ca89bd31c1db344a72a8c256b24757, type: 3}
+    subtitle: "Beni biliyor olmal\u0131... Umbra bu... Hepsi benim y\xFCz\xFCmden."
+    npcTalks: 1
+    subtitleDuration: 6
+  - audio: {fileID: 8300000, guid: b8f981bf5763dd94b980677926699934, type: 3}
+    subtitle: Bu ne demek?
+    npcTalks: 0
+    subtitleDuration: 1
+  - audio: {fileID: 8300000, guid: 0d8ba14c1a0411849944c4e5eb80b212, type: 3}
+    subtitle: "Velor... Eski B\xFCy\xFCn\xFCn pe\u015Findeydi. Beni, Lyra'ya ula\u015Fmak
+      i\xE7in kulland\u0131. \xC7ok uzun bir zamand\u0131r burada i\u015Fkence g\xF6rd\xFCm,
+      g\xFCc\xFCm al\u0131nd\u0131. Umbra lanetini yapmak i\xE7in g\xFC\xE7lerimi
+      kulland\u0131. Ve sonunda ona da ula\u015Ft\u0131 demek."
+    npcTalks: 1
+    subtitleDuration: 23
+  - audio: {fileID: 8300000, guid: ad03e9b34dd3c264fae6f023e16b29c9, type: 3}
+    subtitle: "Nas\u0131l hayatta kald\u0131n ve Lyra'ya nas\u0131l ula\u015Faca\u011F\u0131m?
+      L\xFCtfen bana anlat, onsuz ya\u015Fayamam"
+    npcTalks: 0
+    subtitleDuration: 7
+  - audio: {fileID: 8300000, guid: 95d5ff5fc641dd1499f681a24ff2c6b9, type: 3}
+    subtitle: "G\xFC\xE7lerim onlara yard\u0131m etti\u011Fi i\xE7in, bir \xF6d\xFClm\xFC\u015F
+      gibi bedenimi verdiler ama... G\xF6rd\xFC\u011F\xFCn gibi, \xF6zg\xFCrl\xFC\u011F\xFCm\xFC
+      ve g\xFC\xE7lerimi asla... Lyra'ya art\u0131k kavu\u015Famazs\u0131n. Ruh bedenden
+      ayr\u0131l\u0131nca beden yok olmaya ba\u015Flar, Kael. Bizim i\xE7in yap\u0131lacak
+      hi\xE7bir \u015Fey kalmad\u0131."
+    npcTalks: 1
+    subtitleDuration: 24
+  - audio: {fileID: 8300000, guid: 3fc06d5414e0b544786f5a0e0d0f9b25, type: 3}
+    subtitle: "Hay\u0131r, bu oyun hen\xFCz bitmedi. Lyra'n\u0131n bedeni Ay I\u015F\u0131\u011F\u0131
+      Ma\u011Faras\u0131'nda korunuyor."
+    npcTalks: 0
+    subtitleDuration: 7
+  - audio: {fileID: 8300000, guid: fe0eadf65c5077b4999c4220a45c4bf4, type: 3}
+    subtitle: "Ay \u0131\u015F\u0131\u011F\u0131 ma\u011Faras\u0131 ...  o zaman
+      hala bir \u015Fans\u0131m\u0131z var... Soulshard'a git, Kael. Onu Burada tutuyorlar,
+      koridordan ruh yank\u0131lar\u0131n\u0131 hissedebiliyorum. Lyra'n\u0131n ruhunu
+      bedeninden ay\u0131ran laneti ve g\xFC\xE7lerini, Soulshard ad\u0131n\u0131
+      verdikleri o ta\u015Fta tutuyorlar."
+    npcTalks: 1
+    subtitleDuration: 23
+  - audio: {fileID: 8300000, guid: 203783b38d0ee964d98ff644bf65065a, type: 3}
+    subtitle: "Nas\u0131l bulaca\u011F\u0131m Fiona?"
+    npcTalks: 0
+    subtitleDuration: 2
+  - audio: {fileID: 8300000, guid: 1fd555447bd98a6428f7a18154a62100, type: 3}
+    subtitle: "Eski b\xFCy\xFCn\xFCn son ta\u015F\u0131y\u0131c\u0131s\u0131 Lyra
+      ile..."
     npcTalks: 0
     subtitleDuration: 3
 --- !u!95 &1445653214
@@ -29525,7 +29648,7 @@ Animator:
   m_GameObject: {fileID: 1445653211}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e54eba0c5ff591b4aa8116098b6f8b83, type: 2}
+  m_Controller: {fileID: 9100000, guid: 739bc9f35bd0f744b9827e5ba3a9fc61, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -30635,6 +30758,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 823005583}
   m_SourcePrefab: {fileID: 100100000, guid: 076975b36800c3f4ebb8dff01728263b, type: 3}
+--- !u!1 &1496792694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1675352358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1498169630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 118458008299423567, guid: 1211a8a70ccbf8941b4f049e54df814a,

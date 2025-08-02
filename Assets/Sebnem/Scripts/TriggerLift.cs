@@ -10,6 +10,7 @@ public class TriggerLift : MonoBehaviour
     public bool isLifted = false;
     public bool delay = false;
     public float delayTime = 3f;
+    public bool fanus = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -52,5 +53,10 @@ public class TriggerLift : MonoBehaviour
         
         obj.transform.position = new Vector3(obj.transform.position.x, targetYPosition, obj.transform.position.z);
         isLifted = true;
+
+        if (fanus)
+        {
+            GameManager.Instance.isGameEnd = true;
+        }
     }
 }

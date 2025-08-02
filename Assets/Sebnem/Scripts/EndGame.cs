@@ -11,7 +11,7 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && GameManager.Instance.isGameEnd)
         {
             Etext.text = Estring;
         }
@@ -19,7 +19,7 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && GameManager.Instance.isGameEnd)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -31,7 +31,7 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && GameManager.Instance.isGameEnd)
         {
             Etext.text = string.Empty;
         }

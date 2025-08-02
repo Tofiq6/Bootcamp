@@ -16,6 +16,7 @@ public class DynamicChaseTrigger : MonoBehaviour
     public SubtitleAudioPair[] subtitleSequence; // Altyazý + ses çiftleri
     public TextMeshProUGUI subtitleText; // Altyazý UI
     public AudioSource audioSource; // Ses kaynaðý (Inspector’dan atanmalý)
+    public GameObject portal;
     private bool isTriggered = false;
     public bool Elandor = false;
 
@@ -68,6 +69,11 @@ public class DynamicChaseTrigger : MonoBehaviour
         if (Elandor)
         {
             DynamicTask.Instance.StartTask("MIGHTY WISE", "Talk to Elandor");
+        }
+
+        if(portal != null)
+        {
+            portal.SetActive(true);
         }
     }
 }
