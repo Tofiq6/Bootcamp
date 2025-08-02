@@ -4,18 +4,24 @@ using System.Collections;
 
 public class DynamicChaseTrigger : MonoBehaviour
 {
+    [System.Serializable]
+    public class SubtitleAudioPair
+    {
+        public string subtitle;
+        public AudioClip audioClip;
+    }
+
     public Follower follower; // Takipçi karakteri
-    public float followDuration = 10f; // Takip süresi (saniye cinsinden)
-    public string[] subtitles; // Ekranda sýrasýyla gösterilecek yazýlar
-    public AudioClip[] subtitleAudios; // Her bir alt yazý için ses dosyasý
-    public TextMeshProUGUI subtitleText; // Ekrandaki alt yazý metni
-    private bool isTriggered = false; // Trigger tetiklendi mi?
+    public float followDuration = 10f; // Takip süresi
+    public SubtitleAudioPair[] subtitleSequence; // Altyazý + ses çiftleri
+    public TextMeshProUGUI subtitleText; // Altyazý UI
+    public AudioSource audioSource; // Ses kaynaðý (Inspector’dan atanmalý)
+    private bool isTriggered = false;
     public bool Elandor = false;
-    private int currentSubtitleIndex = 0; // Þu anda oynatýlan yazýnýn indeksi
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !isTriggered) // Eðer oyuncu trigger alanýna girdiyse ve henüz tetiklenmediyse
+        if (other.CompareTag("Player") && !isTriggered)
         {
             FollowAndTalk();
         }
@@ -23,10 +29,10 @@ public class DynamicChaseTrigger : MonoBehaviour
 
     public void FollowAndTalk()
     {
-        isTriggered = true; // Trigger tetiklendi
-        follower.StartFollowing(); // Takip etmeye baþla
-        StartCoroutine(FollowSequence()); // Takip süreci baþlasýn
-        ShowSubtitles(); // Alt yazýlarý göster
+        isTriggered = true;
+        follower.StartFollowing();
+        StartCoroutine(FollowSequence());
+        ShowSubtitles();
     }
 
     private void ShowSubtitles()
@@ -36,41 +42,28 @@ public class DynamicChaseTrigger : MonoBehaviour
 
     private IEnumerator DisplaySubtitlesCoroutine()
     {
-        int subtitleIndex = 0; // Alt yazýlar arasýnda geçiþ yapmak için
-        foreach (var audioClip in subtitleAudios) // Her ses dosyasý için
+        foreach (var pair in subtitleSequence)
         {
-            int numOfSubtitles = subtitles.Length;
-            float durationPerSubtitle = audioClip.length / numOfSubtitles; // Sesin süresini alt yazýlara bölelim
+            subtitleText.text = pair.subtitle;
 
-            // Bu ses dosyasýna ait alt yazýlarý sýrayla göster
-            while (subtitleIndex < numOfSubtitles)
+            if (pair.audioClip != null && audioSource != null)
             {
-                subtitleText.text = subtitles[subtitleIndex]; // Alt yazýyý göster
-                PlaySubtitleAudio(audioClip); // Ses dosyasýný çal
-
-                yield return new WaitForSeconds(durationPerSubtitle); // Ses süresini alt yazýlara böldük
-
-                subtitleIndex++; // Bir sonraki alt yazýya geç
+                audioSource.PlayOneShot(pair.audioClip);
+                yield return new WaitForSeconds(pair.audioClip.length);
+            }
+            else
+            {
+                yield return new WaitForSeconds(2f); // Ses yoksa varsayýlan süre
             }
         }
 
-        // Alt yazý bittiðinde texti temizle
         subtitleText.text = "";
-    }
-
-    private void PlaySubtitleAudio(AudioClip audioClip)
-    {
-        if (audioClip != null)
-        {
-            AudioSource.PlayClipAtPoint(audioClip, transform.position); // Ses dosyasýný çal
-        }
     }
 
     private IEnumerator FollowSequence()
     {
-        // Takip süresi boyunca oyuncuyu takip et
         yield return new WaitForSeconds(followDuration);
-        follower.StopFollowing(); // Takip süresi bittiðinde takip durur
+        follower.StopFollowing();
 
         if (Elandor)
         {

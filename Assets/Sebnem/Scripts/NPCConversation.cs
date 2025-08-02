@@ -59,14 +59,15 @@ public class NPCConversation : MonoBehaviour, IInteractable
             // NPC'nin konuþma olup olmadýðýný kontrol et
             if (currentDialogue.npcTalks)
             {
-                animator.SetBool("isTalking", true);
-                audioSource.clip = currentDialogue.audio; // NPC sesini seç
-                audioSource.Play();
+                animator.SetBool("isTalking", true);                
             }
             else
             {
-                animator.SetBool("isTalking", true); // NPC deðilse, animasyon oynatýyoruz.
+                animator.SetBool("isTalking", true); // NPC deðilse, animasyon oynatýyoruz.                
             }
+
+            audioSource.clip = currentDialogue.audio; // NPC sesini seç
+            audioSource.Play();
 
             // Altyazýyý göster
             subtitleText.text = currentDialogue.subtitle;
@@ -79,33 +80,33 @@ public class NPCConversation : MonoBehaviour, IInteractable
 
             // Konuþma animasyonunu durdur
             animator.SetBool("isTalking", false);
-
-            if (Bilge)
-            {
-                DynamicTask.Instance.StartTask("TAVERN DIARIES", "Find the captain in the tavern");
-            }
-
-            if (Amara)
-            {
-                DynamicTask.Instance.StartTask("DARK DUNGEON", "go to the dungeon");
-                // text.text = "Efsun elde edildi";
-                // yield return new WaitForSeconds(5f);
-                // text.text = "";
-                DynamicTask.Instance.dynamicChase.FollowAndTalk();
-            }
-
-            if (Kaptan)
-            {
-                DynamicTask.Instance.StartTask("LOST SWORD", "Find the map pieces in the castle");
-            }
-
-            if (Fiona && trigger != null) 
-            {
-                trigger.gameObject.SetActive(true);
-            }
-
+            
             // Bir sonraki konuþmayý baþlatmadan önce kýsa bir duraklama
             yield return new WaitForSeconds(1f);
+        }
+
+        if (Bilge)
+        {
+            DynamicTask.Instance.StartTask("TAVERN DIARIES", "Find the captain in the tavern");
+        }
+
+        if (Amara)
+        {
+            DynamicTask.Instance.StartTask("DARK DUNGEON", "go to the dungeon");
+            // text.text = "Efsun elde edildi";
+            // yield return new WaitForSeconds(5f);
+            // text.text = "";
+            DynamicTask.Instance.dynamicChase.FollowAndTalk();
+        }
+
+        if (Kaptan)
+        {
+            DynamicTask.Instance.StartTask("LOST SWORD", "Find the map pieces in the castle");
+        }
+
+        if (Fiona && trigger != null)
+        {
+            trigger.gameObject.SetActive(true);
         }
     }
 }
