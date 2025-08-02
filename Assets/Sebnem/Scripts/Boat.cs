@@ -9,6 +9,9 @@ public class Boat : MonoBehaviour
     public GameObject objectToActivate1;
     public GameObject objectToActivate2;
 
+    public AudioSource audioSource;      // Eklenen: Audio kaynaðý
+    public AudioClip activateSound;      // Eklenen: Çalýnacak ses efekti
+
     private void Start()
     {
         particle.SetActive(false);
@@ -31,12 +34,12 @@ public class Boat : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 other.GetComponent<Animator>().SetBool("isCarry", false);
-                Destroy(Lyra); // Lyra'yý yok et
-                GameManager.Instance.isLyraHugged = false; 
-                GameManager.Instance.isLyraInBoat = true;  
+                Destroy(Lyra);
+                GameManager.Instance.isLyraHugged = false;
+                GameManager.Instance.isLyraInBoat = true;
                 GameManager.Instance.SaveGame();
                 yazi.text = "";
-                LyraInTheBoat();                          
+                LyraInTheBoat();
             }
         }
     }
@@ -49,15 +52,20 @@ public class Boat : MonoBehaviour
         }
     }
 
-    
     public void LyraInTheBoat()
     {
         particle.SetActive(true);
-                
-        if (GameManager.Instance.isLyraInBoat && objectToActivate1 != null && objectToActivate2 != null)
+
+        if (GameManager.Instance.isLyraInBoat)
         {
-            objectToActivate1.SetActive(true);
-            objectToActivate2.SetActive(true);
+            if (objectToActivate1 != null) objectToActivate1.SetActive(true);
+            if (objectToActivate2 != null) objectToActivate2.SetActive(true);
+
+            // Ses efekti çal
+            if (audioSource != null && activateSound != null)
+            {
+                audioSource.PlayOneShot(activateSound);
+            }
         }
     }
 }
