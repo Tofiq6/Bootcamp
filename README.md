@@ -248,17 +248,17 @@ Toplantıların düzenli aralıklarla yapılması ve her sprint sonunda yapılan
 
 # Sprint 3
 
-Sprint Notları:
+1. Sprint Notları:
 User Story'ler, product backlog içinde tanımlanmış; her bir backlog item’a tıklandığında detaylı bilgiye ulaşılabilecek şekilde yapılandırılmıştır.
 
-Sprint İçinde Tamamlanması Tahmin Edilen Puan:
+2. Sprint İçinde Tamamlanması Tahmin Edilen Puan:
 100 Puan
 
-Puan Tamamlama Mantığı:
+3. Puan Tamamlama Mantığı:
 Proje boyunca toplam 300 puanlık backlog oluşturulmuş ve bu puanlar 3 eşit sprint’e bölünmüştür. Üçüncü sprintte de önceki sprintlerde olduğu gibi 100 puanlık görev hedeflenmiş ve bu doğrultuda görev planlaması yapılmıştır.
 
 # Backlog Düzeni ve Story Seçimleri:
-3.	sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
+4. 3.	sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
 Miro Board Renk Kodlaması:
 •	Pembe Item'lar: Hikayesel görevleri temsil eder.
 •	Mor Item'lar: Kodlama ve Unity görevlerini temsil eder.
@@ -268,20 +268,20 @@ Miro Board Renk Kodlaması:
 •	Turuncu Item'lar: Tasarım görevlerini temsil eder.
 
 # Daily Scrum:
-Daily Scrum toplantıları Discord üzerinden yapılmaya devam edilmiştir. Ekip üyeleri, gelişmeleri günlük olarak paylaşmış; karşılaşılan sorunlar anlık müdahalelerle çözülmüştür. WhatsApp üzerinden yürütülen günlük iletişim ve raporlar, Imgur platformunda arşivlenmiştir.
+5. Daily Scrum toplantıları Discord üzerinden yapılmaya devam edilmiştir. Ekip üyeleri, gelişmeleri günlük olarak paylaşmış; karşılaşılan sorunlar anlık müdahalelerle çözülmüştür. WhatsApp üzerinden yürütülen günlük iletişim ve raporlar, Imgur platformunda arşivlenmiştir.
 
 ## İlgili Linkler:
 - **Sprint 3 - Daily Scrum Chats**: [Imgur Linki](https://imgur.com/a/daily-scrum-konu-malar-62YjJ5w)
 
 # Sprint Board Update:
-Sprint board düzenli şekilde güncellenmiş, görevlerin durumu “To Do”, “In Progress” ve “Done” sütunlarında izlenmiştir. Her görev için sorumlu kişi ve ilgili renk kodlaması net şekilde belirtilmiştir.
+6. Sprint board düzenli şekilde güncellenmiş, görevlerin durumu “To Do”, “In Progress” ve “Done” sütunlarında izlenmiştir. Her görev için sorumlu kişi ve ilgili renk kodlaması net şekilde belirtilmiştir.
 
 # Ürün Durumu: Ekran Görüntüleri
-Sprint sonunda geliştirilen bölümler, sahneler ve mekanikler ekran görüntüleriyle belgelenmiştir. Oyun, girişten sona kadar bütünsel ve oynanabilir bir yapıya kavuşmuştur.
+7. Sprint sonunda geliştirilen bölümler, sahneler ve mekanikler ekran görüntüleriyle belgelenmiştir. Oyun, girişten sona kadar bütünsel ve oynanabilir bir yapıya kavuşmuştur.
 Daha fazla görsel için: Oyun İçi Görseller
 
 # Sprint Review:
-Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
+8. Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
 -  	4 yeni karakter tasarlandı.
 -  	4 adet harita sahnesi başarıyla tamamlandı.
 -  	NPC'ler ve ana karakterler için seslendirmeler yapıldı ve oyuna entegre edildi.
@@ -296,7 +296,7 @@ Sprint Review Katılımcıları:
 Şebnem Gündüz, Defne Naz Özer, Tofig Mammadzada
 
 # Sprint Retrospective:
-Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı dengeli ve etkin bir biçimde yürütüldü. Burak’ın ekipten ayrılmasının ardından sorumluluklar yeniden düzenlendi ve proje aksamadan ilerledi.
+9. Ekip, 3. sprintin sonunda tüm süreci değerlendirdi. Görev dağılımı dengeli ve etkin bir biçimde yürütüldü. Burak’ın ekipten ayrılmasının ardından sorumluluklar yeniden düzenlendi ve proje aksamadan ilerledi.
 Senaryo, ses, modelleme ve yazılım gibi farklı alanlarda yapılan çalışmaların senkronizasyonu başarılı şekilde sağlandı. Önceki sprintlere göre daha hızlı geri bildirim alındı ve bu sayede kalite kontrol süreci iyileştirildi. Tüm üyeler, final ürüne ulaşmaktan ve ekip çalışmasının verimliliğinden memnun kaldı.
 Güncel Ekip Üyeleri ve Görev Dağılımı:
 -   Kodlama: Şebnem
@@ -305,4 +305,4 @@ Güncel Ekip Üyeleri ve Görev Dağılımı:
 -  	Senaryo ve Genel Kurgu: Tüm ekip katkı sağlamıştır.
 
 ## Jüri Notları: 
-Projede kullanılan tüm 3D modeller tarafımızdan tasarlanmış olup, Meshy AI ve ChatGPT desteğiyle geliştirilmiştir. Ana karakterler ve NPC’lerin modellemeleri Fuse programı ile yapılmış, animasyonları ise Mixamo üzerinden entegre edilmiştir. Kısa tanıtım videoları Kling AI ile hazırlanmıştır. Seslendirmeler ElevenLabs ile gerçekleştirilmiş, içerik oluşturma sürecinde ChatGPT'den destek alınmıştır. Ses efektleri Pixabay üzerinden, müzikler ise Suno AI aracılığıyla projeye dahil edilmiştir. 
+10. Projede kullanılan tüm 3D modeller tarafımızdan tasarlanmış olup, Meshy AI ve ChatGPT desteğiyle geliştirilmiştir. Ana karakterler ve NPC’lerin modellemeleri Fuse programı ile yapılmış, animasyonları ise Mixamo üzerinden entegre edilmiştir. Kısa tanıtım videoları Kling AI ile hazırlanmıştır. Seslendirmeler ElevenLabs ile gerçekleştirilmiş, içerik oluşturma sürecinde ChatGPT'den destek alınmıştır. Ses efektleri Pixabay üzerinden, müzikler ise Suno AI aracılığıyla projeye dahil edilmiştir. 
