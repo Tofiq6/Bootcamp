@@ -278,7 +278,15 @@ Miro Board Renk Kodlaması:
 
 # Ürün Durumu: Ekran Görüntüleri
 7. Sprint sonunda geliştirilen bölümler, sahneler ve mekanikler ekran görüntüleriyle belgelenmiştir. Oyun, girişten sona kadar bütünsel ve oynanabilir bir yapıya kavuşmuştur.
-Daha fazla görsel için: Oyun İçi Görseller
+Daha fazla görsel için: Oyun İçi Görseller:
+<img src="https://github.com/user-attachments/assets/55ed9856-ea56-43da-be3d-fe0176afad08"  width="600" height="350">
+<img src="https://github.com/user-attachments/assets/5f67358d-fc7c-4751-996e-0dfbc455cbb5"  width="600" height="350">
+<img src="https://github.com/user-attachments/assets/0b88feca-a90b-416e-b4cf-f7c740434735"  width="600" height="350">
+<img src="https://github.com/user-attachments/assets/3ca561c4-eea3-4e6b-96d4-c1d80322d896"  width="600" height="350">
+<img src="https://github.com/user-attachments/assets/6ef6b5e1-a9e4-4eca-a9ac-de84948a3186"  width="600" height="350">
+<img src="https://github.com/user-attachments/assets/3c5c4ffb-16f2-4e78-a24b-2846ee267117)"  width="600" height="350">
+
+
 
 # Sprint Review:
 8. Sprint boyunca ekip büyük bir uyum içinde çalıştı. Tüm görevler zamanında tamamlandı ve oyun, final ürüne dönüştü. Bu sprintte şu gelişmeler sağlandı:
