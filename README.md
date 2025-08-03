@@ -258,7 +258,7 @@ User Story'ler, product backlog içinde tanımlanmış; her bir backlog item’a
 Proje boyunca toplam 300 puanlık backlog oluşturulmuş ve bu puanlar 3 eşit sprint’e bölünmüştür. Üçüncü sprintte de önceki sprintlerde olduğu gibi 100 puanlık görev hedeflenmiş ve bu doğrultuda görev planlaması yapılmıştır.
 
 # Backlog Düzeni ve Story Seçimleri:
-4. 3.	sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
+4. Üçüncü sprintin amacı, oyunu final product haline getirmek olmuştur. Görevler, tamamlayıcılık ve ürün bütünlüğü esas alınarak planlanmış; sprint puan sınırını aşmayacak şekilde ekip üyeleri arasında dağıtılmıştır.
 Miro Board Renk Kodlaması:
 •	Pembe Item'lar: Hikayesel görevleri temsil eder.
 •	Mor Item'lar: Kodlama ve Unity görevlerini temsil eder.
